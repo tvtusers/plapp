@@ -1,0 +1,16 @@
+{
+  "manifestVersion": "1.0.0",
+  "title": "PL fun Math Academy - Master Catalog",
+  "courses": [
+    {
+      "id": "course_basic_math",
+      "title": "Basic Math Mastery",
+      "description": "5 Levels: Fractions, Direct & Indirect Proportion, Percentages & Decimals",
+      "levelsCount": 5,
+      "version": "1.0.0",
+      "packageUrl": "course_basic_math.json",
+      "icon": "Calculator",
+      "sortOrder": 1
+    }
+  ]
+}
