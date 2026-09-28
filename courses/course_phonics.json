@@ -1,0 +1,4207 @@
+{
+  "id": "course_phonics",
+  "title": "Phonics & Letter Sounds Master",
+  "description": "Complete Phonics journey covering all vowels and consonants (A-Z & Digraphs). 5 Levels, 50 Practice Sets, 250 Interactive Questions!",
+  "version": "1.0.0",
+  "author": "PL fun Phonics Academy",
+  "icon": "Volume2",
+  "levelsCount": 5,
+  "totalSets": 50,
+  "totalQuestions": 250,
+  "updatedAt": "2026-09-28T20:19:44.966Z",
+  "levels": [
+    {
+      "id": 1,
+      "title": "Level 1: The Magic Vowels (A, E, I, O, U)",
+      "topic": "Vowels & Short/Long Sounds",
+      "color": "#e11d48",
+      "darkColor": "#be123c",
+      "accent": "#ffe4e6",
+      "iconName": "Sparkles",
+      "slides": [
+        {
+          "id": 1,
+          "title": "What are Vowels?",
+          "subtitle": "The special 5 letters that bring words to life!",
+          "badge": "Core Concept",
+          "visualType": "fraction-pie",
+          "keyConcept": "The 5 English vowels are A, E, I, O, and U. Every single English word has at least one vowel sound!",
+          "points": [
+            "Vowels make open-mouth sounds without teeth or lips blocking airflow.",
+            "Each vowel can make a SHORT sound (Cat, Bed, Pig) or a LONG sound (Cake, Tree, Bike).",
+            "Long vowels say their own name! (A says /eɪ/, E says /iː/, I says /aɪ/, O says /oʊ/, U says /juː/)."
+          ],
+          "example": {
+            "problem": "Which of these letters is a vowel: B, M, E, or T?",
+            "solution": "E",
+            "note": "A, E, I, O, U are vowels. All other letters are consonants."
+          }
+        },
+        {
+          "id": 2,
+          "title": "Short Vowels vs. Long Vowels",
+          "subtitle": "Listen closely to the magic difference!",
+          "badge": "Phonics Rule",
+          "visualType": "fraction-bar",
+          "keyConcept": "A short vowel sound is quick and bouncy. A long vowel sound says the letter's name!",
+          "points": [
+            "A: Short /æ/ in Apple & Hat vs. Long /eɪ/ in Cake & Rain.",
+            "E: Short /ɛ/ in Egg & Bed vs. Long /iː/ in Eagle & Feet.",
+            "I: Short /ɪ/ in Igloo & Fish vs. Long /aɪ/ in Ice & Kite.",
+            "O: Short /ɒ/ in Octopus & Pot vs. Long /oʊ/ in Ocean & Boat.",
+            "U: Short /ʌ/ in Umbrella & Cup vs. Long /juː/ in Uniform & Cube."
+          ],
+          "example": {
+            "problem": "Does CAT have a short or long 'A' sound?",
+            "solution": "Short /æ/ sound",
+            "note": "C-A-T makes the bouncy /æ/ sound, not the /eɪ/ sound in Cake."
+          }
+        }
+      ],
+      "sets": [
+        {
+          "id": "l1-s1",
+          "title": "Set 1: Sound A (Short /æ/)",
+          "description": "Practice the bouncy short A sound found in Cat, Hat, Apple, and Bat.",
+          "questions": [
+            {
+              "id": "l1-s1-q1",
+              "type": "multiple_choice",
+              "prompt": "Which word starts with the short A sound /æ/?",
+              "options": [
+                "Apple",
+                "Banana",
+                "Orange",
+                "Grape"
+              ],
+              "correctAnswer": "Apple",
+              "explanation": "'Apple' starts with the short /æ/ vowel sound."
+            },
+            {
+              "id": "l1-s1-q2",
+              "type": "multiple_choice",
+              "prompt": "Which word has the short 'A' sound as in 'Cat'?",
+              "options": [
+                "Hat",
+                "Hot",
+                "Hut",
+                "Hit"
+              ],
+              "correctAnswer": "Hat",
+              "explanation": "'Hat' has the short /æ/ vowel sound (H - A - T)."
+            },
+            {
+              "id": "l1-s1-q3",
+              "type": "matching",
+              "prompt": "Match each picture word with its initial sound:",
+              "correctAnswer": "A:Apple, B:Bat, C:Cat",
+              "explanation": "A is for Apple, B is for Bat, C is for Cat.",
+              "pairs": [
+                {
+                  "left": "A",
+                  "right": "Apple 🍎"
+                },
+                {
+                  "left": "B",
+                  "right": "Bat 🦇"
+                },
+                {
+                  "left": "C",
+                  "right": "Cat 🐱"
+                }
+              ]
+            },
+            {
+              "id": "l1-s1-q4",
+              "type": "multiple_choice",
+              "prompt": "What is the middle vowel sound in the word B - A - G?",
+              "options": [
+                "Short A /æ/",
+                "Long A /eɪ/",
+                "Short O /ɒ/",
+                "Short E /ɛ/"
+              ],
+              "correctAnswer": "Short A /æ/",
+              "explanation": "'Bag' has a short /æ/ sound in the middle."
+            },
+            {
+              "id": "l1-s1-q5",
+              "type": "multiple_choice",
+              "prompt": "Which animal word contains the short 'A' sound?",
+              "options": [
+                "Ant",
+                "Dog",
+                "Pig",
+                "Duck"
+              ],
+              "correctAnswer": "Ant",
+              "explanation": "'Ant' begins with the short A sound /æ/."
+            }
+          ]
+        },
+        {
+          "id": "l1-s2",
+          "title": "Set 2: Sound A (Long /eɪ/)",
+          "description": "Learn the long A sound where A says its own name (Cake, Rain, Train).",
+          "questions": [
+            {
+              "id": "l1-s2-q1",
+              "type": "multiple_choice",
+              "prompt": "Which sweet treat has a long 'A' sound /eɪ/?",
+              "options": [
+                "Cake",
+                "Cupcake",
+                "Cookie",
+                "Muffin"
+              ],
+              "correctAnswer": "Cake",
+              "explanation": "'Cake' has the magic E making 'A' say its own name /eɪ/."
+            },
+            {
+              "id": "l1-s2-q2",
+              "type": "multiple_choice",
+              "prompt": "Which of these rhymes with 'Rain' and has a long 'A' sound?",
+              "options": [
+                "Train",
+                "Run",
+                "Ten",
+                "Pin"
+              ],
+              "correctAnswer": "Train",
+              "explanation": "'Train' has the long /eɪ/ sound spelled with 'ai'."
+            },
+            {
+              "id": "l1-s2-q3",
+              "type": "multiple_choice",
+              "prompt": "In the word 'G-A-M-E', what sound does 'A' make?",
+              "options": [
+                "Long A (says its name)",
+                "Short A (like cat)",
+                "Short O",
+                "Silent"
+              ],
+              "correctAnswer": "Long A (says its name)",
+              "explanation": "Silent 'E' at the end makes 'A' say its long name: /geɪm/."
+            },
+            {
+              "id": "l1-s2-q4",
+              "type": "matching",
+              "prompt": "Match short A vs long A words:",
+              "correctAnswer": "Cat:Short A, Cake:Long A, Rain:Long A",
+              "explanation": "Cat is short A; Cake and Rain are long A.",
+              "pairs": [
+                {
+                  "left": "Cat 🐱",
+                  "right": "Short A"
+                },
+                {
+                  "left": "Cake 🎂",
+                  "right": "Long A"
+                },
+                {
+                  "left": "Rain 🌧️",
+                  "right": "Long A"
+                }
+              ]
+            },
+            {
+              "id": "l1-s2-q5",
+              "type": "multiple_choice",
+              "prompt": "Which word has the long A sound?",
+              "options": [
+                "Snake",
+                "Snap",
+                "Sack",
+                "Sun"
+              ],
+              "correctAnswer": "Snake",
+              "explanation": "'Snake' has the long A sound /eɪ/."
+            }
+          ]
+        },
+        {
+          "id": "l1-s3",
+          "title": "Set 3: Sound E (Short /ɛ/)",
+          "description": "Practice the short E sound found in Bed, Hen, Egg, and Red.",
+          "questions": [
+            {
+              "id": "l1-s3-q1",
+              "type": "multiple_choice",
+              "prompt": "Which breakfast food begins with the short 'E' sound /ɛ/?",
+              "options": [
+                "Egg",
+                "Apple",
+                "Toast",
+                "Milk"
+              ],
+              "correctAnswer": "Egg",
+              "explanation": "'Egg' starts with the short /ɛ/ sound."
+            },
+            {
+              "id": "l1-s3-q2",
+              "type": "multiple_choice",
+              "prompt": "Where do you sleep that has a short 'E' sound?",
+              "options": [
+                "Bed",
+                "Cot",
+                "Mat",
+                "Sofa"
+              ],
+              "correctAnswer": "Bed",
+              "explanation": "'B-E-D' has the short /ɛ/ sound."
+            },
+            {
+              "id": "l1-s3-q3",
+              "type": "multiple_choice",
+              "prompt": "Which color word has the short 'E' sound?",
+              "options": [
+                "Red",
+                "Blue",
+                "Pink",
+                "Black"
+              ],
+              "correctAnswer": "Red",
+              "explanation": "'R-E-D' contains the short /ɛ/ vowel sound."
+            },
+            {
+              "id": "l1-s3-q4",
+              "type": "multiple_choice",
+              "prompt": "Which bird has a short 'E' sound in its name?",
+              "options": [
+                "Hen",
+                "Duck",
+                "Owl",
+                "Crow"
+              ],
+              "correctAnswer": "Hen",
+              "explanation": "'Hen' has the short /ɛ/ sound."
+            },
+            {
+              "id": "l1-s3-q5",
+              "type": "matching",
+              "prompt": "Match words with their vowel sound:",
+              "correctAnswer": "Bed:Short E, Cat:Short A, Hen:Short E",
+              "explanation": "Bed and Hen have Short E, Cat has Short A.",
+              "pairs": [
+                {
+                  "left": "Bed 🛏️",
+                  "right": "Short E"
+                },
+                {
+                  "left": "Cat 🐱",
+                  "right": "Short A"
+                },
+                {
+                  "left": "Hen 🐔",
+                  "right": "Short E"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "l1-s4",
+          "title": "Set 4: Sound E (Long /iː/)",
+          "description": "Explore the long E sound where E says its name (Tree, Feet, Bee, Green).",
+          "questions": [
+            {
+              "id": "l1-s4-q1",
+              "type": "multiple_choice",
+              "prompt": "What makes honey and has a long 'E' sound?",
+              "options": [
+                "Bee",
+                "Ant",
+                "Wasp",
+                "Fly"
+              ],
+              "correctAnswer": "Bee",
+              "explanation": "'Bee' has the long /iː/ sound spelled with 'ee'."
+            },
+            {
+              "id": "l1-s4-q2",
+              "type": "multiple_choice",
+              "prompt": "Which tall plant has branches and a long 'E' sound?",
+              "options": [
+                "Tree",
+                "Bush",
+                "Grass",
+                "Fern"
+              ],
+              "correctAnswer": "Tree",
+              "explanation": "'Tree' contains the long /iː/ vowel sound."
+            },
+            {
+              "id": "l1-s4-q3",
+              "type": "multiple_choice",
+              "prompt": "What body part do you walk with that rhymes with 'Meet'?",
+              "options": [
+                "Feet",
+                "Hand",
+                "Nose",
+                "Ear"
+              ],
+              "correctAnswer": "Feet",
+              "explanation": "'Feet' has the long E sound /iː/."
+            },
+            {
+              "id": "l1-s4-q4",
+              "type": "matching",
+              "prompt": "Match short E vs long E words:",
+              "correctAnswer": "Hen:Short E, Bee:Long E, Tree:Long E",
+              "explanation": "Hen is short E; Bee and Tree are long E.",
+              "pairs": [
+                {
+                  "left": "Hen 🐔",
+                  "right": "Short E"
+                },
+                {
+                  "left": "Bee 🐝",
+                  "right": "Long E"
+                },
+                {
+                  "left": "Tree 🌳",
+                  "right": "Long E"
+                }
+              ]
+            },
+            {
+              "id": "l1-s4-q5",
+              "type": "multiple_choice",
+              "prompt": "Which color has the long 'E' sound?",
+              "options": [
+                "Green",
+                "Red",
+                "Brown",
+                "Gray"
+              ],
+              "correctAnswer": "Green",
+              "explanation": "'Gr-ee-n' has the long /iː/ vowel sound."
+            }
+          ]
+        },
+        {
+          "id": "l1-s5",
+          "title": "Set 5: Sound I (Short /ɪ/)",
+          "description": "Practice the quick short I sound found in Fish, Pin, Pig, and Igloo.",
+          "questions": [
+            {
+              "id": "l1-s5-q1",
+              "type": "multiple_choice",
+              "prompt": "What winter ice house starts with the short 'I' sound /ɪ/?",
+              "options": [
+                "Igloo",
+                "Tent",
+                "Cabin",
+                "Castle"
+              ],
+              "correctAnswer": "Igloo",
+              "explanation": "'Igloo' begins with the short I /ɪ/ sound."
+            },
+            {
+              "id": "l1-s5-q2",
+              "type": "multiple_choice",
+              "prompt": "Which farm animal has the short 'I' sound?",
+              "options": [
+                "Pig",
+                "Cow",
+                "Sheep",
+                "Goat"
+              ],
+              "correctAnswer": "Pig",
+              "explanation": "'P-I-G' has the short /ɪ/ sound."
+            },
+            {
+              "id": "l1-s5-q3",
+              "type": "multiple_choice",
+              "prompt": "Which water animal has the short 'I' sound?",
+              "options": [
+                "Fish",
+                "Shark",
+                "Whale",
+                "Seal"
+              ],
+              "correctAnswer": "Fish",
+              "explanation": "'F-I-S-H' has the short /ɪ/ sound."
+            },
+            {
+              "id": "l1-s5-q4",
+              "type": "matching",
+              "prompt": "Match short I words:",
+              "correctAnswer": "Pig:Short I, Fish:Short I, Pin:Short I",
+              "explanation": "All these words have the short I sound.",
+              "pairs": [
+                {
+                  "left": "Pig 🐷",
+                  "right": "Short I"
+                },
+                {
+                  "left": "Fish 🐟",
+                  "right": "Short I"
+                },
+                {
+                  "left": "Pin 📍",
+                  "right": "Short I"
+                }
+              ]
+            },
+            {
+              "id": "l1-s5-q5",
+              "type": "multiple_choice",
+              "prompt": "What number contains the short 'I' sound?",
+              "options": [
+                "Six",
+                "Ten",
+                "Two",
+                "Four"
+              ],
+              "correctAnswer": "Six",
+              "explanation": "'S-I-X' has the short /ɪ/ sound."
+            }
+          ]
+        },
+        {
+          "id": "l1-s6",
+          "title": "Set 6: Sound I (Long /aɪ/)",
+          "description": "Discover the long I sound where I says its name (Kite, Ice, Bike, Smile).",
+          "questions": [
+            {
+              "id": "l1-s6-q1",
+              "type": "multiple_choice",
+              "prompt": "What flies in the wind on a string and has a long 'I' sound?",
+              "options": [
+                "Kite",
+                "Ball",
+                "Car",
+                "Plane"
+              ],
+              "correctAnswer": "Kite",
+              "explanation": "'Kite' has the long /aɪ/ sound."
+            },
+            {
+              "id": "l1-s6-q2",
+              "type": "multiple_choice",
+              "prompt": "What cold frozen treat has the long 'I' sound?",
+              "options": [
+                "Ice cream",
+                "Cake",
+                "Juice",
+                "Cookie"
+              ],
+              "correctAnswer": "Ice cream",
+              "explanation": "'Ice' begins with the long I sound /aɪ/."
+            },
+            {
+              "id": "l1-s6-q3",
+              "type": "multiple_choice",
+              "prompt": "What vehicle with two wheels has a long 'I' sound?",
+              "options": [
+                "Bike",
+                "Bus",
+                "Boat",
+                "Train"
+              ],
+              "correctAnswer": "Bike",
+              "explanation": "'Bike' has the long /aɪ/ vowel sound."
+            },
+            {
+              "id": "l1-s6-q4",
+              "type": "multiple_choice",
+              "prompt": "What number has the long 'I' sound?",
+              "options": [
+                "Nine",
+                "Six",
+                "Eight",
+                "Ten"
+              ],
+              "correctAnswer": "Nine",
+              "explanation": "'Nine' has the long /aɪ/ sound."
+            },
+            {
+              "id": "l1-s6-q5",
+              "type": "matching",
+              "prompt": "Match short I vs long I:",
+              "correctAnswer": "Pig:Short I, Kite:Long I, Bike:Long I",
+              "explanation": "Pig is Short I; Kite and Bike are Long I.",
+              "pairs": [
+                {
+                  "left": "Pig 🐷",
+                  "right": "Short I"
+                },
+                {
+                  "left": "Kite 🪁",
+                  "right": "Long I"
+                },
+                {
+                  "left": "Bike 🚲",
+                  "right": "Long I"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "l1-s7",
+          "title": "Set 7: Sound O (Short /ɒ/)",
+          "description": "Practice the round short O sound found in Dog, Pot, Fox, and Clock.",
+          "questions": [
+            {
+              "id": "l1-s7-q1",
+              "type": "multiple_choice",
+              "prompt": "Which pet animal has the short 'O' sound /ɒ/?",
+              "options": [
+                "Dog",
+                "Cat",
+                "Fish",
+                "Bird"
+              ],
+              "correctAnswer": "Dog",
+              "explanation": "'D-O-G' contains the short /ɒ/ vowel sound."
+            },
+            {
+              "id": "l1-s7-q2",
+              "type": "multiple_choice",
+              "prompt": "What eight-legged sea animal starts with short 'O'?",
+              "options": [
+                "Octopus",
+                "Dolphin",
+                "Whale",
+                "Crab"
+              ],
+              "correctAnswer": "Octopus",
+              "explanation": "'Octopus' starts with the short /ɒ/ sound."
+            },
+            {
+              "id": "l1-s7-q3",
+              "type": "multiple_choice",
+              "prompt": "What kitchen container for cooking soup has the short 'O' sound?",
+              "options": [
+                "Pot",
+                "Pan",
+                "Cup",
+                "Dish"
+              ],
+              "correctAnswer": "Pot",
+              "explanation": "'P-O-T' has the short /ɒ/ sound."
+            },
+            {
+              "id": "l1-s7-q4",
+              "type": "multiple_choice",
+              "prompt": "Which wild animal rhymes with 'Box' and has short 'O'?",
+              "options": [
+                "Fox",
+                "Wolf",
+                "Bear",
+                "Deer"
+              ],
+              "correctAnswer": "Fox",
+              "explanation": "'F-O-X' has the short /ɒ/ sound."
+            },
+            {
+              "id": "l1-s7-q5",
+              "type": "matching",
+              "prompt": "Match short O words with emojis:",
+              "correctAnswer": "Dog:🐶, Pot:🍲, Fox:🦊",
+              "explanation": "All these words feature the short O sound.",
+              "pairs": [
+                {
+                  "left": "Dog",
+                  "right": "🐶"
+                },
+                {
+                  "left": "Pot",
+                  "right": "🍲"
+                },
+                {
+                  "left": "Fox",
+                  "right": "🦊"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "l1-s8",
+          "title": "Set 8: Sound O (Long /oʊ/)",
+          "description": "Learn the long O sound where O says its name (Boat, Rope, Rose, Snow).",
+          "questions": [
+            {
+              "id": "l1-s8-q1",
+              "type": "multiple_choice",
+              "prompt": "What water vehicle has the long 'O' sound /oʊ/?",
+              "options": [
+                "Boat",
+                "Ship",
+                "Raft",
+                "Sub"
+              ],
+              "correctAnswer": "Boat",
+              "explanation": "'Boat' has the long /oʊ/ sound spelled with 'oa'."
+            },
+            {
+              "id": "l1-s8-q2",
+              "type": "multiple_choice",
+              "prompt": "Which beautiful flower with thorns has a long 'O' sound?",
+              "options": [
+                "Rose",
+                "Daisy",
+                "Lily",
+                "Tulip"
+              ],
+              "correctAnswer": "Rose",
+              "explanation": "'Rose' has the magic E making O say /oʊ/."
+            },
+            {
+              "id": "l1-s8-q3",
+              "type": "multiple_choice",
+              "prompt": "What falls in winter that has the long 'O' sound?",
+              "options": [
+                "Snow",
+                "Rain",
+                "Hail",
+                "Fog"
+              ],
+              "correctAnswer": "Snow",
+              "explanation": "'Snow' ends with the long /oʊ/ sound."
+            },
+            {
+              "id": "l1-s8-q4",
+              "type": "matching",
+              "prompt": "Match short O vs long O:",
+              "correctAnswer": "Dog:Short O, Boat:Long O, Rose:Long O",
+              "explanation": "Dog has short O; Boat and Rose have long O.",
+              "pairs": [
+                {
+                  "left": "Dog 🐕",
+                  "right": "Short O"
+                },
+                {
+                  "left": "Boat ⛵",
+                  "right": "Long O"
+                },
+                {
+                  "left": "Rose 🌹",
+                  "right": "Long O"
+                }
+              ]
+            },
+            {
+              "id": "l1-s8-q5",
+              "type": "multiple_choice",
+              "prompt": "Which word has the long O sound?",
+              "options": [
+                "Home",
+                "Hop",
+                "Hot",
+                "Hut"
+              ],
+              "correctAnswer": "Home",
+              "explanation": "'Home' has silent E making long O /oʊ/."
+            }
+          ]
+        },
+        {
+          "id": "l1-s9",
+          "title": "Set 9: Sound U (Short /ʌ/)",
+          "description": "Practice the short U sound found in Sun, Cup, Bus, and Duck.",
+          "questions": [
+            {
+              "id": "l1-s9-q1",
+              "type": "multiple_choice",
+              "prompt": "What shines bright in the sky with a short 'U' sound /ʌ/?",
+              "options": [
+                "Sun",
+                "Moon",
+                "Star",
+                "Cloud"
+              ],
+              "correctAnswer": "Sun",
+              "explanation": "'S-U-N' has the short /ʌ/ vowel sound."
+            },
+            {
+              "id": "l1-s9-q2",
+              "type": "multiple_choice",
+              "prompt": "What protects you from rain and begins with short 'U'?",
+              "options": [
+                "Umbrella",
+                "Raincoat",
+                "Boots",
+                "Hat"
+              ],
+              "correctAnswer": "Umbrella",
+              "explanation": "'Umbrella' begins with short /ʌ/."
+            },
+            {
+              "id": "l1-s9-q3",
+              "type": "multiple_choice",
+              "prompt": "What vehicle takes children to school with a short 'U' sound?",
+              "options": [
+                "Bus",
+                "Car",
+                "Train",
+                "Bike"
+              ],
+              "correctAnswer": "Bus",
+              "explanation": "'B-U-S' has the short /ʌ/ sound."
+            },
+            {
+              "id": "l1-s9-q4",
+              "type": "multiple_choice",
+              "prompt": "What bird says 'Quack' and has a short 'U' sound?",
+              "options": [
+                "Duck",
+                "Swan",
+                "Goose",
+                "Robin"
+              ],
+              "correctAnswer": "Duck",
+              "explanation": "'D-U-C-K' has the short /ʌ/ sound."
+            },
+            {
+              "id": "l1-s9-q5",
+              "type": "matching",
+              "prompt": "Match short U words:",
+              "correctAnswer": "Sun:☀️, Cup:☕, Bus:🚌",
+              "explanation": "All these words have the short /ʌ/ sound.",
+              "pairs": [
+                {
+                  "left": "Sun",
+                  "right": "☀️"
+                },
+                {
+                  "left": "Cup",
+                  "right": "☕"
+                },
+                {
+                  "left": "Bus",
+                  "right": "🚌"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "l1-s10",
+          "title": "Set 10: Sound U (Long /juː/) & Vowels Review",
+          "description": "Master the long U sound (Cube, Unicorn, Music) and review all 5 vowels.",
+          "questions": [
+            {
+              "id": "l1-s10-q1",
+              "type": "multiple_choice",
+              "prompt": "What magical horned animal starts with the long 'U' sound?",
+              "options": [
+                "Unicorn",
+                "Horse",
+                "Zebra",
+                "Dragon"
+              ],
+              "correctAnswer": "Unicorn",
+              "explanation": "'Unicorn' starts with long U /juː/."
+            },
+            {
+              "id": "l1-s10-q2",
+              "type": "multiple_choice",
+              "prompt": "What 3D square shape has a long 'U' sound?",
+              "options": [
+                "Cube",
+                "Cone",
+                "Ball",
+                "Ring"
+              ],
+              "correctAnswer": "Cube",
+              "explanation": "'Cube' has the long /juː/ sound."
+            },
+            {
+              "id": "l1-s10-q3",
+              "type": "multiple_choice",
+              "prompt": "How many vowels are in the English alphabet?",
+              "options": [
+                "5",
+                "21",
+                "26",
+                "10"
+              ],
+              "correctAnswer": "5",
+              "explanation": "There are 5 vowels: A, E, I, O, U."
+            },
+            {
+              "id": "l1-s10-q4",
+              "type": "matching",
+              "prompt": "Match each vowel to an example word:",
+              "correctAnswer": "A:Apple, E:Egg, I:Igloo",
+              "explanation": "A, E, I matched with their short vowel sounds.",
+              "pairs": [
+                {
+                  "left": "A",
+                  "right": "Apple 🍎"
+                },
+                {
+                  "left": "E",
+                  "right": "Egg 🥚"
+                },
+                {
+                  "left": "I",
+                  "right": "Igloo 🧊"
+                }
+              ]
+            },
+            {
+              "id": "l1-s10-q5",
+              "type": "matching",
+              "prompt": "Match O and U to example words:",
+              "correctAnswer": "O:Octopus, U:Sun, U (Long):Unicorn",
+              "explanation": "O is for Octopus, U is for Sun.",
+              "pairs": [
+                {
+                  "left": "O",
+                  "right": "Octopus 🐙"
+                },
+                {
+                  "left": "U",
+                  "right": "Sun ☀️"
+                },
+                {
+                  "left": "U (Long)",
+                  "right": "Unicorn 🦄"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Level 2: Early Consonants (B, C, D, F, G)",
+      "topic": "First Consonant Sounds",
+      "color": "#3b82f6",
+      "darkColor": "#1d4ed8",
+      "accent": "#dbeafe",
+      "iconName": "BookOpen",
+      "slides": [
+        {
+          "id": 1,
+          "title": "Consonant Sounds B, C, D, F, G",
+          "subtitle": "Building the foundation of reading!",
+          "badge": "Core Concept",
+          "visualType": "fraction-pie",
+          "keyConcept": "Consonants are voiced or unvoiced sounds made by blocking airflow with tongue, teeth, or lips.",
+          "points": [
+            "B makes the bouncing /b/ sound (Ball, Bat, Bear).",
+            "C makes the hard /k/ sound (Cat, Cup) or soft /s/ sound (City).",
+            "D makes the tapping /d/ sound (Dog, Duck, Drum).",
+            "F makes the blowing /f/ sound (Fish, Frog, Fan).",
+            "G makes the hard /ɡ/ sound (Goat, Girl) or soft /dʒ/ sound (Gem)."
+          ],
+          "example": {
+            "problem": "Which letter starts the word 'BALL'?",
+            "solution": "B",
+            "note": "B makes the /b/ sound."
+          }
+        }
+      ],
+      "sets": [
+        {
+          "id": "l2-s1",
+          "title": "Set 1: Sound B (/b/)",
+          "description": "Practice the B consonant sound with words like Ball, Bear, Bird.",
+          "questions": [
+            {
+              "id": "l2-s1-q1",
+              "type": "multiple_choice",
+              "prompt": "Which word starts with the B sound?",
+              "options": [
+                "Ball",
+                "Apple",
+                "Sun",
+                "Tree"
+              ],
+              "correctAnswer": "Ball",
+              "explanation": "'Ball' starts with the B consonant sound."
+            },
+            {
+              "id": "l2-s1-q2",
+              "type": "multiple_choice",
+              "prompt": "Which word also has the B sound?",
+              "options": [
+                "Bear",
+                "Moon",
+                "Water",
+                "Hat"
+              ],
+              "correctAnswer": "Bear",
+              "explanation": "'Bear' features the B sound."
+            },
+            {
+              "id": "l2-s1-q3",
+              "type": "matching",
+              "prompt": "Match the letters to their words:",
+              "correctAnswer": "B:Ball",
+              "explanation": "Matching letters with corresponding phonetic words.",
+              "pairs": [
+                {
+                  "left": "B",
+                  "right": "Ball"
+                },
+                {
+                  "left": "A",
+                  "right": "Apple 🍎"
+                },
+                {
+                  "left": "S",
+                  "right": "Sun ☀️"
+                }
+              ]
+            },
+            {
+              "id": "l2-s1-q4",
+              "type": "multiple_choice",
+              "prompt": "What is the starting letter of 'Bird'?",
+              "options": [
+                "B",
+                "M",
+                "T",
+                "P"
+              ],
+              "correctAnswer": "B",
+              "explanation": "'Bird' begins with the letter B."
+            },
+            {
+              "id": "l2-s1-q5",
+              "type": "multiple_choice",
+              "prompt": "Which word shares the B initial sound?",
+              "options": [
+                "Boat",
+                "Pig",
+                "Kite",
+                "Shoe"
+              ],
+              "correctAnswer": "Boat",
+              "explanation": "Both words share the B beginning sound."
+            }
+          ]
+        },
+        {
+          "id": "l2-s2",
+          "title": "Set 2: Sound C (Hard) (/k/)",
+          "description": "Practice the C (Hard) consonant sound with words like Cat, Cup, Car.",
+          "questions": [
+            {
+              "id": "l2-s2-q1",
+              "type": "multiple_choice",
+              "prompt": "Which word starts with the C (Hard) sound?",
+              "options": [
+                "Cat",
+                "Apple",
+                "Sun",
+                "Tree"
+              ],
+              "correctAnswer": "Cat",
+              "explanation": "'Cat' starts with the C (Hard) consonant sound."
+            },
+            {
+              "id": "l2-s2-q2",
+              "type": "multiple_choice",
+              "prompt": "Which word also has the C (Hard) sound?",
+              "options": [
+                "Cup",
+                "Moon",
+                "Water",
+                "Hat"
+              ],
+              "correctAnswer": "Cup",
+              "explanation": "'Cup' features the C (Hard) sound."
+            },
+            {
+              "id": "l2-s2-q3",
+              "type": "matching",
+              "prompt": "Match the letters to their words:",
+              "correctAnswer": "C:Cat",
+              "explanation": "Matching letters with corresponding phonetic words.",
+              "pairs": [
+                {
+                  "left": "C",
+                  "right": "Cat"
+                },
+                {
+                  "left": "A",
+                  "right": "Apple 🍎"
+                },
+                {
+                  "left": "S",
+                  "right": "Sun ☀️"
+                }
+              ]
+            },
+            {
+              "id": "l2-s2-q4",
+              "type": "multiple_choice",
+              "prompt": "What is the starting letter of 'Car'?",
+              "options": [
+                "C",
+                "M",
+                "T",
+                "P"
+              ],
+              "correctAnswer": "C",
+              "explanation": "'Car' begins with the letter C."
+            },
+            {
+              "id": "l2-s2-q5",
+              "type": "multiple_choice",
+              "prompt": "Which word shares the C (Hard) initial sound?",
+              "options": [
+                "Cake",
+                "Pig",
+                "Kite",
+                "Shoe"
+              ],
+              "correctAnswer": "Cake",
+              "explanation": "Both words share the C beginning sound."
+            }
+          ]
+        },
+        {
+          "id": "l2-s3",
+          "title": "Set 3: Sound C (Soft) (/s/)",
+          "description": "Practice the C (Soft) consonant sound with words like City, Circle, Cereal.",
+          "questions": [
+            {
+              "id": "l2-s3-q1",
+              "type": "multiple_choice",
+              "prompt": "Which word starts with the C (Soft) sound?",
+              "options": [
+                "City",
+                "Apple",
+                "Sun",
+                "Tree"
+              ],
+              "correctAnswer": "City",
+              "explanation": "'City' starts with the C (Soft) consonant sound."
+            },
+            {
+              "id": "l2-s3-q2",
+              "type": "multiple_choice",
+              "prompt": "Which word also has the C (Soft) sound?",
+              "options": [
+                "Circle",
+                "Moon",
+                "Water",
+                "Hat"
+              ],
+              "correctAnswer": "Circle",
+              "explanation": "'Circle' features the C (Soft) sound."
+            },
+            {
+              "id": "l2-s3-q3",
+              "type": "matching",
+              "prompt": "Match the letters to their words:",
+              "correctAnswer": "C:City",
+              "explanation": "Matching letters with corresponding phonetic words.",
+              "pairs": [
+                {
+                  "left": "C",
+                  "right": "City"
+                },
+                {
+                  "left": "A",
+                  "right": "Apple 🍎"
+                },
+                {
+                  "left": "S",
+                  "right": "Sun ☀️"
+                }
+              ]
+            },
+            {
+              "id": "l2-s3-q4",
+              "type": "multiple_choice",
+              "prompt": "What is the starting letter of 'Cereal'?",
+              "options": [
+                "C",
+                "M",
+                "T",
+                "P"
+              ],
+              "correctAnswer": "C",
+              "explanation": "'Cereal' begins with the letter C."
+            },
+            {
+              "id": "l2-s3-q5",
+              "type": "multiple_choice",
+              "prompt": "Which word shares the C (Soft) initial sound?",
+              "options": [
+                "Cent",
+                "Pig",
+                "Kite",
+                "Shoe"
+              ],
+              "correctAnswer": "Cent",
+              "explanation": "Both words share the C beginning sound."
+            }
+          ]
+        },
+        {
+          "id": "l2-s4",
+          "title": "Set 4: Sound D (/d/)",
+          "description": "Practice the D consonant sound with words like Dog, Duck, Door.",
+          "questions": [
+            {
+              "id": "l2-s4-q1",
+              "type": "multiple_choice",
+              "prompt": "Which word starts with the D sound?",
+              "options": [
+                "Dog",
+                "Apple",
+                "Sun",
+                "Tree"
+              ],
+              "correctAnswer": "Dog",
+              "explanation": "'Dog' starts with the D consonant sound."
+            },
+            {
+              "id": "l2-s4-q2",
+              "type": "multiple_choice",
+              "prompt": "Which word also has the D sound?",
+              "options": [
+                "Duck",
+                "Moon",
+                "Water",
+                "Hat"
+              ],
+              "correctAnswer": "Duck",
+              "explanation": "'Duck' features the D sound."
+            },
+            {
+              "id": "l2-s4-q3",
+              "type": "matching",
+              "prompt": "Match the letters to their words:",
+              "correctAnswer": "D:Dog",
+              "explanation": "Matching letters with corresponding phonetic words.",
+              "pairs": [
+                {
+                  "left": "D",
+                  "right": "Dog"
+                },
+                {
+                  "left": "A",
+                  "right": "Apple 🍎"
+                },
+                {
+                  "left": "S",
+                  "right": "Sun ☀️"
+                }
+              ]
+            },
+            {
+              "id": "l2-s4-q4",
+              "type": "multiple_choice",
+              "prompt": "What is the starting letter of 'Door'?",
+              "options": [
+                "D",
+                "M",
+                "T",
+                "P"
+              ],
+              "correctAnswer": "D",
+              "explanation": "'Door' begins with the letter D."
+            },
+            {
+              "id": "l2-s4-q5",
+              "type": "multiple_choice",
+              "prompt": "Which word shares the D initial sound?",
+              "options": [
+                "Drum",
+                "Pig",
+                "Kite",
+                "Shoe"
+              ],
+              "correctAnswer": "Drum",
+              "explanation": "Both words share the D beginning sound."
+            }
+          ]
+        },
+        {
+          "id": "l2-s5",
+          "title": "Set 5: Sound F (/f/)",
+          "description": "Practice the F consonant sound with words like Fish, Frog, Fox.",
+          "questions": [
+            {
+              "id": "l2-s5-q1",
+              "type": "multiple_choice",
+              "prompt": "Which word starts with the F sound?",
+              "options": [
+                "Fish",
+                "Apple",
+                "Sun",
+                "Tree"
+              ],
+              "correctAnswer": "Fish",
+              "explanation": "'Fish' starts with the F consonant sound."
+            },
+            {
+              "id": "l2-s5-q2",
+              "type": "multiple_choice",
+              "prompt": "Which word also has the F sound?",
+              "options": [
+                "Frog",
+                "Moon",
+                "Water",
+                "Hat"
+              ],
+              "correctAnswer": "Frog",
+              "explanation": "'Frog' features the F sound."
+            },
+            {
+              "id": "l2-s5-q3",
+              "type": "matching",
+              "prompt": "Match the letters to their words:",
+              "correctAnswer": "F:Fish",
+              "explanation": "Matching letters with corresponding phonetic words.",
+              "pairs": [
+                {
+                  "left": "F",
+                  "right": "Fish"
+                },
+                {
+                  "left": "A",
+                  "right": "Apple 🍎"
+                },
+                {
+                  "left": "S",
+                  "right": "Sun ☀️"
+                }
+              ]
+            },
+            {
+              "id": "l2-s5-q4",
+              "type": "multiple_choice",
+              "prompt": "What is the starting letter of 'Fox'?",
+              "options": [
+                "F",
+                "M",
+                "T",
+                "P"
+              ],
+              "correctAnswer": "F",
+              "explanation": "'Fox' begins with the letter F."
+            },
+            {
+              "id": "l2-s5-q5",
+              "type": "multiple_choice",
+              "prompt": "Which word shares the F initial sound?",
+              "options": [
+                "Fan",
+                "Pig",
+                "Kite",
+                "Shoe"
+              ],
+              "correctAnswer": "Fan",
+              "explanation": "Both words share the F beginning sound."
+            }
+          ]
+        },
+        {
+          "id": "l2-s6",
+          "title": "Set 6: Sound G (Hard) (/ɡ/)",
+          "description": "Practice the G (Hard) consonant sound with words like Goat, Girl, Gate.",
+          "questions": [
+            {
+              "id": "l2-s6-q1",
+              "type": "multiple_choice",
+              "prompt": "Which word starts with the G (Hard) sound?",
+              "options": [
+                "Goat",
+                "Apple",
+                "Sun",
+                "Tree"
+              ],
+              "correctAnswer": "Goat",
+              "explanation": "'Goat' starts with the G (Hard) consonant sound."
+            },
+            {
+              "id": "l2-s6-q2",
+              "type": "multiple_choice",
+              "prompt": "Which word also has the G (Hard) sound?",
+              "options": [
+                "Girl",
+                "Moon",
+                "Water",
+                "Hat"
+              ],
+              "correctAnswer": "Girl",
+              "explanation": "'Girl' features the G (Hard) sound."
+            },
+            {
+              "id": "l2-s6-q3",
+              "type": "matching",
+              "prompt": "Match the letters to their words:",
+              "correctAnswer": "G:Goat",
+              "explanation": "Matching letters with corresponding phonetic words.",
+              "pairs": [
+                {
+                  "left": "G",
+                  "right": "Goat"
+                },
+                {
+                  "left": "A",
+                  "right": "Apple 🍎"
+                },
+                {
+                  "left": "S",
+                  "right": "Sun ☀️"
+                }
+              ]
+            },
+            {
+              "id": "l2-s6-q4",
+              "type": "multiple_choice",
+              "prompt": "What is the starting letter of 'Gate'?",
+              "options": [
+                "G",
+                "M",
+                "T",
+                "P"
+              ],
+              "correctAnswer": "G",
+              "explanation": "'Gate' begins with the letter G."
+            },
+            {
+              "id": "l2-s6-q5",
+              "type": "multiple_choice",
+              "prompt": "Which word shares the G (Hard) initial sound?",
+              "options": [
+                "Gift",
+                "Pig",
+                "Kite",
+                "Shoe"
+              ],
+              "correctAnswer": "Gift",
+              "explanation": "Both words share the G beginning sound."
+            }
+          ]
+        },
+        {
+          "id": "l2-s7",
+          "title": "Set 7: Sound G (Soft) (/dʒ/)",
+          "description": "Practice the G (Soft) consonant sound with words like Gem, Giraffe, Giant.",
+          "questions": [
+            {
+              "id": "l2-s7-q1",
+              "type": "multiple_choice",
+              "prompt": "Which word starts with the G (Soft) sound?",
+              "options": [
+                "Gem",
+                "Apple",
+                "Sun",
+                "Tree"
+              ],
+              "correctAnswer": "Gem",
+              "explanation": "'Gem' starts with the G (Soft) consonant sound."
+            },
+            {
+              "id": "l2-s7-q2",
+              "type": "multiple_choice",
+              "prompt": "Which word also has the G (Soft) sound?",
+              "options": [
+                "Giraffe",
+                "Moon",
+                "Water",
+                "Hat"
+              ],
+              "correctAnswer": "Giraffe",
+              "explanation": "'Giraffe' features the G (Soft) sound."
+            },
+            {
+              "id": "l2-s7-q3",
+              "type": "matching",
+              "prompt": "Match the letters to their words:",
+              "correctAnswer": "G:Gem",
+              "explanation": "Matching letters with corresponding phonetic words.",
+              "pairs": [
+                {
+                  "left": "G",
+                  "right": "Gem"
+                },
+                {
+                  "left": "A",
+                  "right": "Apple 🍎"
+                },
+                {
+                  "left": "S",
+                  "right": "Sun ☀️"
+                }
+              ]
+            },
+            {
+              "id": "l2-s7-q4",
+              "type": "multiple_choice",
+              "prompt": "What is the starting letter of 'Giant'?",
+              "options": [
+                "G",
+                "M",
+                "T",
+                "P"
+              ],
+              "correctAnswer": "G",
+              "explanation": "'Giant' begins with the letter G."
+            },
+            {
+              "id": "l2-s7-q5",
+              "type": "multiple_choice",
+              "prompt": "Which word shares the G (Soft) initial sound?",
+              "options": [
+                "Gym",
+                "Pig",
+                "Kite",
+                "Shoe"
+              ],
+              "correctAnswer": "Gym",
+              "explanation": "Both words share the G beginning sound."
+            }
+          ]
+        },
+        {
+          "id": "l2-s8",
+          "title": "Set 8: Sound B vs D (/b/ vs /d/)",
+          "description": "Practice the B vs D consonant sound with words like Bat, Dad, Bed.",
+          "questions": [
+            {
+              "id": "l2-s8-q1",
+              "type": "multiple_choice",
+              "prompt": "Which word starts with the B vs D sound?",
+              "options": [
+                "Bat",
+                "Apple",
+                "Sun",
+                "Tree"
+              ],
+              "correctAnswer": "Bat",
+              "explanation": "'Bat' starts with the B vs D consonant sound."
+            },
+            {
+              "id": "l2-s8-q2",
+              "type": "multiple_choice",
+              "prompt": "Which word also has the B vs D sound?",
+              "options": [
+                "Dad",
+                "Moon",
+                "Water",
+                "Hat"
+              ],
+              "correctAnswer": "Dad",
+              "explanation": "'Dad' features the B vs D sound."
+            },
+            {
+              "id": "l2-s8-q3",
+              "type": "matching",
+              "prompt": "Match the letters to their words:",
+              "correctAnswer": "B:Bat",
+              "explanation": "Matching letters with corresponding phonetic words.",
+              "pairs": [
+                {
+                  "left": "B",
+                  "right": "Bat"
+                },
+                {
+                  "left": "A",
+                  "right": "Apple 🍎"
+                },
+                {
+                  "left": "S",
+                  "right": "Sun ☀️"
+                }
+              ]
+            },
+            {
+              "id": "l2-s8-q4",
+              "type": "multiple_choice",
+              "prompt": "What is the starting letter of 'Bed'?",
+              "options": [
+                "B",
+                "M",
+                "T",
+                "P"
+              ],
+              "correctAnswer": "B",
+              "explanation": "'Bed' begins with the letter B."
+            },
+            {
+              "id": "l2-s8-q5",
+              "type": "multiple_choice",
+              "prompt": "Which word shares the B vs D initial sound?",
+              "options": [
+                "Dog",
+                "Pig",
+                "Kite",
+                "Shoe"
+              ],
+              "correctAnswer": "Dog",
+              "explanation": "Both words share the B beginning sound."
+            }
+          ]
+        },
+        {
+          "id": "l2-s9",
+          "title": "Set 9: Sound C vs G (/k/ vs /ɡ/)",
+          "description": "Practice the C vs G consonant sound with words like Cat, Goat, Cap.",
+          "questions": [
+            {
+              "id": "l2-s9-q1",
+              "type": "multiple_choice",
+              "prompt": "Which word starts with the C vs G sound?",
+              "options": [
+                "Cat",
+                "Apple",
+                "Sun",
+                "Tree"
+              ],
+              "correctAnswer": "Cat",
+              "explanation": "'Cat' starts with the C vs G consonant sound."
+            },
+            {
+              "id": "l2-s9-q2",
+              "type": "multiple_choice",
+              "prompt": "Which word also has the C vs G sound?",
+              "options": [
+                "Goat",
+                "Moon",
+                "Water",
+                "Hat"
+              ],
+              "correctAnswer": "Goat",
+              "explanation": "'Goat' features the C vs G sound."
+            },
+            {
+              "id": "l2-s9-q3",
+              "type": "matching",
+              "prompt": "Match the letters to their words:",
+              "correctAnswer": "C:Cat",
+              "explanation": "Matching letters with corresponding phonetic words.",
+              "pairs": [
+                {
+                  "left": "C",
+                  "right": "Cat"
+                },
+                {
+                  "left": "A",
+                  "right": "Apple 🍎"
+                },
+                {
+                  "left": "S",
+                  "right": "Sun ☀️"
+                }
+              ]
+            },
+            {
+              "id": "l2-s9-q4",
+              "type": "multiple_choice",
+              "prompt": "What is the starting letter of 'Cap'?",
+              "options": [
+                "C",
+                "M",
+                "T",
+                "P"
+              ],
+              "correctAnswer": "C",
+              "explanation": "'Cap' begins with the letter C."
+            },
+            {
+              "id": "l2-s9-q5",
+              "type": "multiple_choice",
+              "prompt": "Which word shares the C vs G initial sound?",
+              "options": [
+                "Gap",
+                "Pig",
+                "Kite",
+                "Shoe"
+              ],
+              "correctAnswer": "Gap",
+              "explanation": "Both words share the C beginning sound."
+            }
+          ]
+        },
+        {
+          "id": "l2-s10",
+          "title": "Set 10: Sound Review B, C, D, F, G (Review)",
+          "description": "Practice the Review B, C, D, F, G consonant sound with words like Ball, Cat, Dog.",
+          "questions": [
+            {
+              "id": "l2-s10-q1",
+              "type": "multiple_choice",
+              "prompt": "Which word starts with the Review B, C, D, F, G sound?",
+              "options": [
+                "Ball",
+                "Apple",
+                "Sun",
+                "Tree"
+              ],
+              "correctAnswer": "Ball",
+              "explanation": "'Ball' starts with the Review B, C, D, F, G consonant sound."
+            },
+            {
+              "id": "l2-s10-q2",
+              "type": "multiple_choice",
+              "prompt": "Which word also has the Review B, C, D, F, G sound?",
+              "options": [
+                "Cat",
+                "Moon",
+                "Water",
+                "Hat"
+              ],
+              "correctAnswer": "Cat",
+              "explanation": "'Cat' features the Review B, C, D, F, G sound."
+            },
+            {
+              "id": "l2-s10-q3",
+              "type": "matching",
+              "prompt": "Match the letters to their words:",
+              "correctAnswer": "R:Ball",
+              "explanation": "Matching letters with corresponding phonetic words.",
+              "pairs": [
+                {
+                  "left": "R",
+                  "right": "Ball"
+                },
+                {
+                  "left": "A",
+                  "right": "Apple 🍎"
+                },
+                {
+                  "left": "S",
+                  "right": "Sun ☀️"
+                }
+              ]
+            },
+            {
+              "id": "l2-s10-q4",
+              "type": "multiple_choice",
+              "prompt": "What is the starting letter of 'Dog'?",
+              "options": [
+                "R",
+                "M",
+                "T",
+                "P"
+              ],
+              "correctAnswer": "R",
+              "explanation": "'Dog' begins with the letter R."
+            },
+            {
+              "id": "l2-s10-q5",
+              "type": "multiple_choice",
+              "prompt": "Which word shares the Review B, C, D, F, G initial sound?",
+              "options": [
+                "Fish",
+                "Pig",
+                "Kite",
+                "Shoe"
+              ],
+              "correctAnswer": "Fish",
+              "explanation": "Both words share the R beginning sound."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Level 3: Middle Consonants (H, J, K, L, M, N)",
+      "topic": "Nasal, Liquid & Glottal Sounds",
+      "color": "#8b5cf6",
+      "darkColor": "#6d28d9",
+      "accent": "#ede9fe",
+      "iconName": "Volume2",
+      "slides": [
+        {
+          "id": 1,
+          "title": "Consonant Sounds H, J, K, L, M, N",
+          "subtitle": "Expanding your sound universe!",
+          "badge": "Core Concept",
+          "visualType": "fraction-pie",
+          "keyConcept": "Learn how to form H, J, K, L, M, and N with your voice and mouth!",
+          "points": [
+            "H makes the whispering /h/ sound like breathing out (Hat, House).",
+            "J makes the bouncy /dʒ/ sound (Jam, Jelly, Jump).",
+            "K makes the crisp /k/ sound (Kite, King, Kangaroo).",
+            "L makes the tongue-tapping /l/ sound (Lion, Lemon, Leaf).",
+            "M makes the lips-closed humming /m/ sound (Moon, Milk, Monkey).",
+            "N makes the tongue-roof humming /n/ sound (Nest, Net, Nut)."
+          ],
+          "example": {
+            "problem": "Which letter starts the word 'MOON'?",
+            "solution": "M",
+            "note": "M makes the humming /m/ sound."
+          }
+        }
+      ],
+      "sets": [
+        {
+          "id": "l3-s1",
+          "title": "Set 1: Sound H (/h/)",
+          "description": "Practice words starting with H: Hat, House, Horse.",
+          "questions": [
+            {
+              "id": "l3-s1-q1",
+              "type": "multiple_choice",
+              "prompt": "Which word begins with the sound of letter 'H'?",
+              "options": [
+                "Hat",
+                "Apple",
+                "Bear",
+                "Dog"
+              ],
+              "correctAnswer": "Hat",
+              "explanation": "'Hat' starts with the letter H."
+            },
+            {
+              "id": "l3-s1-q2",
+              "type": "multiple_choice",
+              "prompt": "Which of these starts with 'H'?",
+              "options": [
+                "House",
+                "Cat",
+                "Fish",
+                "Sun"
+              ],
+              "correctAnswer": "House",
+              "explanation": "'House' starts with H."
+            },
+            {
+              "id": "l3-s1-q3",
+              "type": "matching",
+              "prompt": "Match the letters to their words:",
+              "correctAnswer": "H:Hat",
+              "explanation": "Letter to word sound correlation.",
+              "pairs": [
+                {
+                  "left": "H",
+                  "right": "Hat"
+                },
+                {
+                  "left": "B",
+                  "right": "Ball ⚽"
+                },
+                {
+                  "left": "F",
+                  "right": "Fish 🐟"
+                }
+              ]
+            },
+            {
+              "id": "l3-s1-q4",
+              "type": "multiple_choice",
+              "prompt": "What is the first letter in 'Horse'?",
+              "options": [
+                "H",
+                "Z",
+                "W",
+                "P"
+              ],
+              "correctAnswer": "H",
+              "explanation": "'Horse' begins with the letter H."
+            },
+            {
+              "id": "l3-s1-q5",
+              "type": "multiple_choice",
+              "prompt": "Which item belongs to the 'H' sound family?",
+              "options": [
+                "Hand",
+                "Egg",
+                "Pig",
+                "Duck"
+              ],
+              "correctAnswer": "Hand",
+              "explanation": "'Hand' shares the H sound."
+            }
+          ]
+        },
+        {
+          "id": "l3-s2",
+          "title": "Set 2: Sound J (/dʒ/)",
+          "description": "Practice words starting with J: Jam, Jelly, Jump.",
+          "questions": [
+            {
+              "id": "l3-s2-q1",
+              "type": "multiple_choice",
+              "prompt": "Which word begins with the sound of letter 'J'?",
+              "options": [
+                "Jam",
+                "Apple",
+                "Bear",
+                "Dog"
+              ],
+              "correctAnswer": "Jam",
+              "explanation": "'Jam' starts with the letter J."
+            },
+            {
+              "id": "l3-s2-q2",
+              "type": "multiple_choice",
+              "prompt": "Which of these starts with 'J'?",
+              "options": [
+                "Jelly",
+                "Cat",
+                "Fish",
+                "Sun"
+              ],
+              "correctAnswer": "Jelly",
+              "explanation": "'Jelly' starts with J."
+            },
+            {
+              "id": "l3-s2-q3",
+              "type": "matching",
+              "prompt": "Match the letters to their words:",
+              "correctAnswer": "J:Jam",
+              "explanation": "Letter to word sound correlation.",
+              "pairs": [
+                {
+                  "left": "J",
+                  "right": "Jam"
+                },
+                {
+                  "left": "B",
+                  "right": "Ball ⚽"
+                },
+                {
+                  "left": "F",
+                  "right": "Fish 🐟"
+                }
+              ]
+            },
+            {
+              "id": "l3-s2-q4",
+              "type": "multiple_choice",
+              "prompt": "What is the first letter in 'Jump'?",
+              "options": [
+                "J",
+                "Z",
+                "W",
+                "P"
+              ],
+              "correctAnswer": "J",
+              "explanation": "'Jump' begins with the letter J."
+            },
+            {
+              "id": "l3-s2-q5",
+              "type": "multiple_choice",
+              "prompt": "Which item belongs to the 'J' sound family?",
+              "options": [
+                "Jug",
+                "Egg",
+                "Pig",
+                "Duck"
+              ],
+              "correctAnswer": "Jug",
+              "explanation": "'Jug' shares the J sound."
+            }
+          ]
+        },
+        {
+          "id": "l3-s3",
+          "title": "Set 3: Sound K (/k/)",
+          "description": "Practice words starting with K: Kite, King, Kangaroo.",
+          "questions": [
+            {
+              "id": "l3-s3-q1",
+              "type": "multiple_choice",
+              "prompt": "Which word begins with the sound of letter 'K'?",
+              "options": [
+                "Kite",
+                "Apple",
+                "Bear",
+                "Dog"
+              ],
+              "correctAnswer": "Kite",
+              "explanation": "'Kite' starts with the letter K."
+            },
+            {
+              "id": "l3-s3-q2",
+              "type": "multiple_choice",
+              "prompt": "Which of these starts with 'K'?",
+              "options": [
+                "King",
+                "Cat",
+                "Fish",
+                "Sun"
+              ],
+              "correctAnswer": "King",
+              "explanation": "'King' starts with K."
+            },
+            {
+              "id": "l3-s3-q3",
+              "type": "matching",
+              "prompt": "Match the letters to their words:",
+              "correctAnswer": "K:Kite",
+              "explanation": "Letter to word sound correlation.",
+              "pairs": [
+                {
+                  "left": "K",
+                  "right": "Kite"
+                },
+                {
+                  "left": "B",
+                  "right": "Ball ⚽"
+                },
+                {
+                  "left": "F",
+                  "right": "Fish 🐟"
+                }
+              ]
+            },
+            {
+              "id": "l3-s3-q4",
+              "type": "multiple_choice",
+              "prompt": "What is the first letter in 'Kangaroo'?",
+              "options": [
+                "K",
+                "Z",
+                "W",
+                "P"
+              ],
+              "correctAnswer": "K",
+              "explanation": "'Kangaroo' begins with the letter K."
+            },
+            {
+              "id": "l3-s3-q5",
+              "type": "multiple_choice",
+              "prompt": "Which item belongs to the 'K' sound family?",
+              "options": [
+                "Key",
+                "Egg",
+                "Pig",
+                "Duck"
+              ],
+              "correctAnswer": "Key",
+              "explanation": "'Key' shares the K sound."
+            }
+          ]
+        },
+        {
+          "id": "l3-s4",
+          "title": "Set 4: Sound L (/l/)",
+          "description": "Practice words starting with L: Lion, Lemon, Leaf.",
+          "questions": [
+            {
+              "id": "l3-s4-q1",
+              "type": "multiple_choice",
+              "prompt": "Which word begins with the sound of letter 'L'?",
+              "options": [
+                "Lion",
+                "Apple",
+                "Bear",
+                "Dog"
+              ],
+              "correctAnswer": "Lion",
+              "explanation": "'Lion' starts with the letter L."
+            },
+            {
+              "id": "l3-s4-q2",
+              "type": "multiple_choice",
+              "prompt": "Which of these starts with 'L'?",
+              "options": [
+                "Lemon",
+                "Cat",
+                "Fish",
+                "Sun"
+              ],
+              "correctAnswer": "Lemon",
+              "explanation": "'Lemon' starts with L."
+            },
+            {
+              "id": "l3-s4-q3",
+              "type": "matching",
+              "prompt": "Match the letters to their words:",
+              "correctAnswer": "L:Lion",
+              "explanation": "Letter to word sound correlation.",
+              "pairs": [
+                {
+                  "left": "L",
+                  "right": "Lion"
+                },
+                {
+                  "left": "B",
+                  "right": "Ball ⚽"
+                },
+                {
+                  "left": "F",
+                  "right": "Fish 🐟"
+                }
+              ]
+            },
+            {
+              "id": "l3-s4-q4",
+              "type": "multiple_choice",
+              "prompt": "What is the first letter in 'Leaf'?",
+              "options": [
+                "L",
+                "Z",
+                "W",
+                "P"
+              ],
+              "correctAnswer": "L",
+              "explanation": "'Leaf' begins with the letter L."
+            },
+            {
+              "id": "l3-s4-q5",
+              "type": "multiple_choice",
+              "prompt": "Which item belongs to the 'L' sound family?",
+              "options": [
+                "Lamp",
+                "Egg",
+                "Pig",
+                "Duck"
+              ],
+              "correctAnswer": "Lamp",
+              "explanation": "'Lamp' shares the L sound."
+            }
+          ]
+        },
+        {
+          "id": "l3-s5",
+          "title": "Set 5: Sound M (/m/)",
+          "description": "Practice words starting with M: Monkey, Moon, Milk.",
+          "questions": [
+            {
+              "id": "l3-s5-q1",
+              "type": "multiple_choice",
+              "prompt": "Which word begins with the sound of letter 'M'?",
+              "options": [
+                "Monkey",
+                "Apple",
+                "Bear",
+                "Dog"
+              ],
+              "correctAnswer": "Monkey",
+              "explanation": "'Monkey' starts with the letter M."
+            },
+            {
+              "id": "l3-s5-q2",
+              "type": "multiple_choice",
+              "prompt": "Which of these starts with 'M'?",
+              "options": [
+                "Moon",
+                "Cat",
+                "Fish",
+                "Sun"
+              ],
+              "correctAnswer": "Moon",
+              "explanation": "'Moon' starts with M."
+            },
+            {
+              "id": "l3-s5-q3",
+              "type": "matching",
+              "prompt": "Match the letters to their words:",
+              "correctAnswer": "M:Monkey",
+              "explanation": "Letter to word sound correlation.",
+              "pairs": [
+                {
+                  "left": "M",
+                  "right": "Monkey"
+                },
+                {
+                  "left": "B",
+                  "right": "Ball ⚽"
+                },
+                {
+                  "left": "F",
+                  "right": "Fish 🐟"
+                }
+              ]
+            },
+            {
+              "id": "l3-s5-q4",
+              "type": "multiple_choice",
+              "prompt": "What is the first letter in 'Milk'?",
+              "options": [
+                "M",
+                "Z",
+                "W",
+                "P"
+              ],
+              "correctAnswer": "M",
+              "explanation": "'Milk' begins with the letter M."
+            },
+            {
+              "id": "l3-s5-q5",
+              "type": "multiple_choice",
+              "prompt": "Which item belongs to the 'M' sound family?",
+              "options": [
+                "Map",
+                "Egg",
+                "Pig",
+                "Duck"
+              ],
+              "correctAnswer": "Map",
+              "explanation": "'Map' shares the M sound."
+            }
+          ]
+        },
+        {
+          "id": "l3-s6",
+          "title": "Set 6: Sound N (/n/)",
+          "description": "Practice words starting with N: Nest, Net, Nose.",
+          "questions": [
+            {
+              "id": "l3-s6-q1",
+              "type": "multiple_choice",
+              "prompt": "Which word begins with the sound of letter 'N'?",
+              "options": [
+                "Nest",
+                "Apple",
+                "Bear",
+                "Dog"
+              ],
+              "correctAnswer": "Nest",
+              "explanation": "'Nest' starts with the letter N."
+            },
+            {
+              "id": "l3-s6-q2",
+              "type": "multiple_choice",
+              "prompt": "Which of these starts with 'N'?",
+              "options": [
+                "Net",
+                "Cat",
+                "Fish",
+                "Sun"
+              ],
+              "correctAnswer": "Net",
+              "explanation": "'Net' starts with N."
+            },
+            {
+              "id": "l3-s6-q3",
+              "type": "matching",
+              "prompt": "Match the letters to their words:",
+              "correctAnswer": "N:Nest",
+              "explanation": "Letter to word sound correlation.",
+              "pairs": [
+                {
+                  "left": "N",
+                  "right": "Nest"
+                },
+                {
+                  "left": "B",
+                  "right": "Ball ⚽"
+                },
+                {
+                  "left": "F",
+                  "right": "Fish 🐟"
+                }
+              ]
+            },
+            {
+              "id": "l3-s6-q4",
+              "type": "multiple_choice",
+              "prompt": "What is the first letter in 'Nose'?",
+              "options": [
+                "N",
+                "Z",
+                "W",
+                "P"
+              ],
+              "correctAnswer": "N",
+              "explanation": "'Nose' begins with the letter N."
+            },
+            {
+              "id": "l3-s6-q5",
+              "type": "multiple_choice",
+              "prompt": "Which item belongs to the 'N' sound family?",
+              "options": [
+                "Nut",
+                "Egg",
+                "Pig",
+                "Duck"
+              ],
+              "correctAnswer": "Nut",
+              "explanation": "'Nut' shares the N sound."
+            }
+          ]
+        },
+        {
+          "id": "l3-s7",
+          "title": "Set 7: Sound M vs N (/m/ vs /n/)",
+          "description": "Practice words starting with M vs N: Map, Nap, Moon.",
+          "questions": [
+            {
+              "id": "l3-s7-q1",
+              "type": "multiple_choice",
+              "prompt": "Which word begins with the sound of letter 'M'?",
+              "options": [
+                "Map",
+                "Apple",
+                "Bear",
+                "Dog"
+              ],
+              "correctAnswer": "Map",
+              "explanation": "'Map' starts with the letter M."
+            },
+            {
+              "id": "l3-s7-q2",
+              "type": "multiple_choice",
+              "prompt": "Which of these starts with 'M'?",
+              "options": [
+                "Nap",
+                "Cat",
+                "Fish",
+                "Sun"
+              ],
+              "correctAnswer": "Nap",
+              "explanation": "'Nap' starts with M."
+            },
+            {
+              "id": "l3-s7-q3",
+              "type": "matching",
+              "prompt": "Match the letters to their words:",
+              "correctAnswer": "M:Map",
+              "explanation": "Letter to word sound correlation.",
+              "pairs": [
+                {
+                  "left": "M",
+                  "right": "Map"
+                },
+                {
+                  "left": "B",
+                  "right": "Ball ⚽"
+                },
+                {
+                  "left": "F",
+                  "right": "Fish 🐟"
+                }
+              ]
+            },
+            {
+              "id": "l3-s7-q4",
+              "type": "multiple_choice",
+              "prompt": "What is the first letter in 'Moon'?",
+              "options": [
+                "M",
+                "Z",
+                "W",
+                "P"
+              ],
+              "correctAnswer": "M",
+              "explanation": "'Moon' begins with the letter M."
+            },
+            {
+              "id": "l3-s7-q5",
+              "type": "multiple_choice",
+              "prompt": "Which item belongs to the 'M' sound family?",
+              "options": [
+                "Noon",
+                "Egg",
+                "Pig",
+                "Duck"
+              ],
+              "correctAnswer": "Noon",
+              "explanation": "'Noon' shares the M sound."
+            }
+          ]
+        },
+        {
+          "id": "l3-s8",
+          "title": "Set 8: Sound H vs J (/h/ vs /dʒ/)",
+          "description": "Practice words starting with H vs J: Hat, Jet, Ham.",
+          "questions": [
+            {
+              "id": "l3-s8-q1",
+              "type": "multiple_choice",
+              "prompt": "Which word begins with the sound of letter 'H'?",
+              "options": [
+                "Hat",
+                "Apple",
+                "Bear",
+                "Dog"
+              ],
+              "correctAnswer": "Hat",
+              "explanation": "'Hat' starts with the letter H."
+            },
+            {
+              "id": "l3-s8-q2",
+              "type": "multiple_choice",
+              "prompt": "Which of these starts with 'H'?",
+              "options": [
+                "Jet",
+                "Cat",
+                "Fish",
+                "Sun"
+              ],
+              "correctAnswer": "Jet",
+              "explanation": "'Jet' starts with H."
+            },
+            {
+              "id": "l3-s8-q3",
+              "type": "matching",
+              "prompt": "Match the letters to their words:",
+              "correctAnswer": "H:Hat",
+              "explanation": "Letter to word sound correlation.",
+              "pairs": [
+                {
+                  "left": "H",
+                  "right": "Hat"
+                },
+                {
+                  "left": "B",
+                  "right": "Ball ⚽"
+                },
+                {
+                  "left": "F",
+                  "right": "Fish 🐟"
+                }
+              ]
+            },
+            {
+              "id": "l3-s8-q4",
+              "type": "multiple_choice",
+              "prompt": "What is the first letter in 'Ham'?",
+              "options": [
+                "H",
+                "Z",
+                "W",
+                "P"
+              ],
+              "correctAnswer": "H",
+              "explanation": "'Ham' begins with the letter H."
+            },
+            {
+              "id": "l3-s8-q5",
+              "type": "multiple_choice",
+              "prompt": "Which item belongs to the 'H' sound family?",
+              "options": [
+                "Jam",
+                "Egg",
+                "Pig",
+                "Duck"
+              ],
+              "correctAnswer": "Jam",
+              "explanation": "'Jam' shares the H sound."
+            }
+          ]
+        },
+        {
+          "id": "l3-s9",
+          "title": "Set 9: Sound K vs L (/k/ vs /l/)",
+          "description": "Practice words starting with K vs L: Kite, Lion, King.",
+          "questions": [
+            {
+              "id": "l3-s9-q1",
+              "type": "multiple_choice",
+              "prompt": "Which word begins with the sound of letter 'K'?",
+              "options": [
+                "Kite",
+                "Apple",
+                "Bear",
+                "Dog"
+              ],
+              "correctAnswer": "Kite",
+              "explanation": "'Kite' starts with the letter K."
+            },
+            {
+              "id": "l3-s9-q2",
+              "type": "multiple_choice",
+              "prompt": "Which of these starts with 'K'?",
+              "options": [
+                "Lion",
+                "Cat",
+                "Fish",
+                "Sun"
+              ],
+              "correctAnswer": "Lion",
+              "explanation": "'Lion' starts with K."
+            },
+            {
+              "id": "l3-s9-q3",
+              "type": "matching",
+              "prompt": "Match the letters to their words:",
+              "correctAnswer": "K:Kite",
+              "explanation": "Letter to word sound correlation.",
+              "pairs": [
+                {
+                  "left": "K",
+                  "right": "Kite"
+                },
+                {
+                  "left": "B",
+                  "right": "Ball ⚽"
+                },
+                {
+                  "left": "F",
+                  "right": "Fish 🐟"
+                }
+              ]
+            },
+            {
+              "id": "l3-s9-q4",
+              "type": "multiple_choice",
+              "prompt": "What is the first letter in 'King'?",
+              "options": [
+                "K",
+                "Z",
+                "W",
+                "P"
+              ],
+              "correctAnswer": "K",
+              "explanation": "'King' begins with the letter K."
+            },
+            {
+              "id": "l3-s9-q5",
+              "type": "multiple_choice",
+              "prompt": "Which item belongs to the 'K' sound family?",
+              "options": [
+                "Leaf",
+                "Egg",
+                "Pig",
+                "Duck"
+              ],
+              "correctAnswer": "Leaf",
+              "explanation": "'Leaf' shares the K sound."
+            }
+          ]
+        },
+        {
+          "id": "l3-s10",
+          "title": "Set 10: Sound Review H to N (Review)",
+          "description": "Practice words starting with Review H to N: Hat, Jam, Kite.",
+          "questions": [
+            {
+              "id": "l3-s10-q1",
+              "type": "multiple_choice",
+              "prompt": "Which word begins with the sound of letter 'R'?",
+              "options": [
+                "Hat",
+                "Apple",
+                "Bear",
+                "Dog"
+              ],
+              "correctAnswer": "Hat",
+              "explanation": "'Hat' starts with the letter R."
+            },
+            {
+              "id": "l3-s10-q2",
+              "type": "multiple_choice",
+              "prompt": "Which of these starts with 'R'?",
+              "options": [
+                "Jam",
+                "Cat",
+                "Fish",
+                "Sun"
+              ],
+              "correctAnswer": "Jam",
+              "explanation": "'Jam' starts with R."
+            },
+            {
+              "id": "l3-s10-q3",
+              "type": "matching",
+              "prompt": "Match the letters to their words:",
+              "correctAnswer": "R:Hat",
+              "explanation": "Letter to word sound correlation.",
+              "pairs": [
+                {
+                  "left": "R",
+                  "right": "Hat"
+                },
+                {
+                  "left": "B",
+                  "right": "Ball ⚽"
+                },
+                {
+                  "left": "F",
+                  "right": "Fish 🐟"
+                }
+              ]
+            },
+            {
+              "id": "l3-s10-q4",
+              "type": "multiple_choice",
+              "prompt": "What is the first letter in 'Kite'?",
+              "options": [
+                "R",
+                "Z",
+                "W",
+                "P"
+              ],
+              "correctAnswer": "R",
+              "explanation": "'Kite' begins with the letter R."
+            },
+            {
+              "id": "l3-s10-q5",
+              "type": "multiple_choice",
+              "prompt": "Which item belongs to the 'R' sound family?",
+              "options": [
+                "Lion",
+                "Egg",
+                "Pig",
+                "Duck"
+              ],
+              "correctAnswer": "Lion",
+              "explanation": "'Lion' shares the R sound."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Level 4: Active Consonants (P, Q, R, S, T)",
+      "topic": "Plosives & Sibilant Sounds",
+      "color": "#f59e0b",
+      "darkColor": "#d97706",
+      "accent": "#fef3c7",
+      "iconName": "Sparkles",
+      "slides": [
+        {
+          "id": 1,
+          "title": "Consonant Sounds P, Q, R, S, T",
+          "subtitle": "Popping, buzzing, and rolling sounds!",
+          "badge": "Core Concept",
+          "visualType": "fraction-pie",
+          "keyConcept": "P, Q, R, S, and T are among the most frequently used consonants in English!",
+          "points": [
+            "P makes the puffing /p/ sound (Pen, Pig, Pizza).",
+            "Q is almost always paired with U to make the /kw/ sound (Queen, Quick, Quilt).",
+            "R makes the roaring /r/ sound (Rabbit, Ring, Rainbow).",
+            "S makes the hissing /s/ sound (Sun, Snake, Star).",
+            "T makes the tapping /t/ sound (Tiger, Tree, Tent)."
+          ],
+          "example": {
+            "problem": "Which letter starts the word 'SUN'?",
+            "solution": "S",
+            "note": "S makes the hissing /s/ sound."
+          }
+        }
+      ],
+      "sets": [
+        {
+          "id": "l4-s1",
+          "title": "Set 1: Sound P (/p/)",
+          "description": "Practice the P sound with words: Pen, Pig, Pizza.",
+          "questions": [
+            {
+              "id": "l4-s1-q1",
+              "type": "multiple_choice",
+              "prompt": "Which word starts with the 'P' sound?",
+              "options": [
+                "Pen",
+                "Apple",
+                "Bear",
+                "Dog"
+              ],
+              "correctAnswer": "Pen",
+              "explanation": "'Pen' starts with the P sound."
+            },
+            {
+              "id": "l4-s1-q2",
+              "type": "multiple_choice",
+              "prompt": "Which word contains the 'P' sound?",
+              "options": [
+                "Pig",
+                "Cat",
+                "Fish",
+                "Moon"
+              ],
+              "correctAnswer": "Pig",
+              "explanation": "'Pig' starts with P."
+            },
+            {
+              "id": "l4-s1-q3",
+              "type": "matching",
+              "prompt": "Match the letters to their words:",
+              "correctAnswer": "P:Pen",
+              "explanation": "Letter to word sound correlation.",
+              "pairs": [
+                {
+                  "left": "P",
+                  "right": "Pen"
+                },
+                {
+                  "left": "M",
+                  "right": "Moon 🌙"
+                },
+                {
+                  "left": "D",
+                  "right": "Dog 🐶"
+                }
+              ]
+            },
+            {
+              "id": "l4-s1-q4",
+              "type": "multiple_choice",
+              "prompt": "What is the first letter in 'Pizza'?",
+              "options": [
+                "P",
+                "K",
+                "L",
+                "N"
+              ],
+              "correctAnswer": "P",
+              "explanation": "'Pizza' starts with P."
+            },
+            {
+              "id": "l4-s1-q5",
+              "type": "multiple_choice",
+              "prompt": "Which of these starts with the P sound?",
+              "options": [
+                "Pencil",
+                "Egg",
+                "Ant",
+                "Ice"
+              ],
+              "correctAnswer": "Pencil",
+              "explanation": "'Pencil' features the P sound."
+            }
+          ]
+        },
+        {
+          "id": "l4-s2",
+          "title": "Set 2: Sound Q (Qu) (/kw/)",
+          "description": "Practice the Q (Qu) sound with words: Queen, Quilt, Quick.",
+          "questions": [
+            {
+              "id": "l4-s2-q1",
+              "type": "multiple_choice",
+              "prompt": "Which word starts with the 'Q' sound?",
+              "options": [
+                "Queen",
+                "Apple",
+                "Bear",
+                "Dog"
+              ],
+              "correctAnswer": "Queen",
+              "explanation": "'Queen' starts with the Q sound."
+            },
+            {
+              "id": "l4-s2-q2",
+              "type": "multiple_choice",
+              "prompt": "Which word contains the 'Q' sound?",
+              "options": [
+                "Quilt",
+                "Cat",
+                "Fish",
+                "Moon"
+              ],
+              "correctAnswer": "Quilt",
+              "explanation": "'Quilt' starts with Q."
+            },
+            {
+              "id": "l4-s2-q3",
+              "type": "matching",
+              "prompt": "Match the letters to their words:",
+              "correctAnswer": "Q:Queen",
+              "explanation": "Letter to word sound correlation.",
+              "pairs": [
+                {
+                  "left": "Q",
+                  "right": "Queen"
+                },
+                {
+                  "left": "M",
+                  "right": "Moon 🌙"
+                },
+                {
+                  "left": "D",
+                  "right": "Dog 🐶"
+                }
+              ]
+            },
+            {
+              "id": "l4-s2-q4",
+              "type": "multiple_choice",
+              "prompt": "What is the first letter in 'Quick'?",
+              "options": [
+                "Q",
+                "K",
+                "L",
+                "N"
+              ],
+              "correctAnswer": "Q",
+              "explanation": "'Quick' starts with Q."
+            },
+            {
+              "id": "l4-s2-q5",
+              "type": "multiple_choice",
+              "prompt": "Which of these starts with the Q sound?",
+              "options": [
+                "Quiet",
+                "Egg",
+                "Ant",
+                "Ice"
+              ],
+              "correctAnswer": "Quiet",
+              "explanation": "'Quiet' features the Q sound."
+            }
+          ]
+        },
+        {
+          "id": "l4-s3",
+          "title": "Set 3: Sound R (/r/)",
+          "description": "Practice the R sound with words: Rabbit, Ring, Rainbow.",
+          "questions": [
+            {
+              "id": "l4-s3-q1",
+              "type": "multiple_choice",
+              "prompt": "Which word starts with the 'R' sound?",
+              "options": [
+                "Rabbit",
+                "Apple",
+                "Bear",
+                "Dog"
+              ],
+              "correctAnswer": "Rabbit",
+              "explanation": "'Rabbit' starts with the R sound."
+            },
+            {
+              "id": "l4-s3-q2",
+              "type": "multiple_choice",
+              "prompt": "Which word contains the 'R' sound?",
+              "options": [
+                "Ring",
+                "Cat",
+                "Fish",
+                "Moon"
+              ],
+              "correctAnswer": "Ring",
+              "explanation": "'Ring' starts with R."
+            },
+            {
+              "id": "l4-s3-q3",
+              "type": "matching",
+              "prompt": "Match the letters to their words:",
+              "correctAnswer": "R:Rabbit",
+              "explanation": "Letter to word sound correlation.",
+              "pairs": [
+                {
+                  "left": "R",
+                  "right": "Rabbit"
+                },
+                {
+                  "left": "M",
+                  "right": "Moon 🌙"
+                },
+                {
+                  "left": "D",
+                  "right": "Dog 🐶"
+                }
+              ]
+            },
+            {
+              "id": "l4-s3-q4",
+              "type": "multiple_choice",
+              "prompt": "What is the first letter in 'Rainbow'?",
+              "options": [
+                "R",
+                "K",
+                "L",
+                "N"
+              ],
+              "correctAnswer": "R",
+              "explanation": "'Rainbow' starts with R."
+            },
+            {
+              "id": "l4-s3-q5",
+              "type": "multiple_choice",
+              "prompt": "Which of these starts with the R sound?",
+              "options": [
+                "Rocket",
+                "Egg",
+                "Ant",
+                "Ice"
+              ],
+              "correctAnswer": "Rocket",
+              "explanation": "'Rocket' features the R sound."
+            }
+          ]
+        },
+        {
+          "id": "l4-s4",
+          "title": "Set 4: Sound S (/s/)",
+          "description": "Practice the S sound with words: Sun, Star, Snake.",
+          "questions": [
+            {
+              "id": "l4-s4-q1",
+              "type": "multiple_choice",
+              "prompt": "Which word starts with the 'S' sound?",
+              "options": [
+                "Sun",
+                "Apple",
+                "Bear",
+                "Dog"
+              ],
+              "correctAnswer": "Sun",
+              "explanation": "'Sun' starts with the S sound."
+            },
+            {
+              "id": "l4-s4-q2",
+              "type": "multiple_choice",
+              "prompt": "Which word contains the 'S' sound?",
+              "options": [
+                "Star",
+                "Cat",
+                "Fish",
+                "Moon"
+              ],
+              "correctAnswer": "Star",
+              "explanation": "'Star' starts with S."
+            },
+            {
+              "id": "l4-s4-q3",
+              "type": "matching",
+              "prompt": "Match the letters to their words:",
+              "correctAnswer": "S:Sun",
+              "explanation": "Letter to word sound correlation.",
+              "pairs": [
+                {
+                  "left": "S",
+                  "right": "Sun"
+                },
+                {
+                  "left": "M",
+                  "right": "Moon 🌙"
+                },
+                {
+                  "left": "D",
+                  "right": "Dog 🐶"
+                }
+              ]
+            },
+            {
+              "id": "l4-s4-q4",
+              "type": "multiple_choice",
+              "prompt": "What is the first letter in 'Snake'?",
+              "options": [
+                "S",
+                "K",
+                "L",
+                "N"
+              ],
+              "correctAnswer": "S",
+              "explanation": "'Snake' starts with S."
+            },
+            {
+              "id": "l4-s4-q5",
+              "type": "multiple_choice",
+              "prompt": "Which of these starts with the S sound?",
+              "options": [
+                "Sock",
+                "Egg",
+                "Ant",
+                "Ice"
+              ],
+              "correctAnswer": "Sock",
+              "explanation": "'Sock' features the S sound."
+            }
+          ]
+        },
+        {
+          "id": "l4-s5",
+          "title": "Set 5: Sound T (/t/)",
+          "description": "Practice the T sound with words: Tiger, Tree, Train.",
+          "questions": [
+            {
+              "id": "l4-s5-q1",
+              "type": "multiple_choice",
+              "prompt": "Which word starts with the 'T' sound?",
+              "options": [
+                "Tiger",
+                "Apple",
+                "Bear",
+                "Dog"
+              ],
+              "correctAnswer": "Tiger",
+              "explanation": "'Tiger' starts with the T sound."
+            },
+            {
+              "id": "l4-s5-q2",
+              "type": "multiple_choice",
+              "prompt": "Which word contains the 'T' sound?",
+              "options": [
+                "Tree",
+                "Cat",
+                "Fish",
+                "Moon"
+              ],
+              "correctAnswer": "Tree",
+              "explanation": "'Tree' starts with T."
+            },
+            {
+              "id": "l4-s5-q3",
+              "type": "matching",
+              "prompt": "Match the letters to their words:",
+              "correctAnswer": "T:Tiger",
+              "explanation": "Letter to word sound correlation.",
+              "pairs": [
+                {
+                  "left": "T",
+                  "right": "Tiger"
+                },
+                {
+                  "left": "M",
+                  "right": "Moon 🌙"
+                },
+                {
+                  "left": "D",
+                  "right": "Dog 🐶"
+                }
+              ]
+            },
+            {
+              "id": "l4-s5-q4",
+              "type": "multiple_choice",
+              "prompt": "What is the first letter in 'Train'?",
+              "options": [
+                "T",
+                "K",
+                "L",
+                "N"
+              ],
+              "correctAnswer": "T",
+              "explanation": "'Train' starts with T."
+            },
+            {
+              "id": "l4-s5-q5",
+              "type": "multiple_choice",
+              "prompt": "Which of these starts with the T sound?",
+              "options": [
+                "Turtle",
+                "Egg",
+                "Ant",
+                "Ice"
+              ],
+              "correctAnswer": "Turtle",
+              "explanation": "'Turtle' features the T sound."
+            }
+          ]
+        },
+        {
+          "id": "l4-s6",
+          "title": "Set 6: Sound P vs T (/p/ vs /t/)",
+          "description": "Practice the P vs T sound with words: Pan, Tan, Pin.",
+          "questions": [
+            {
+              "id": "l4-s6-q1",
+              "type": "multiple_choice",
+              "prompt": "Which word starts with the 'P' sound?",
+              "options": [
+                "Pan",
+                "Apple",
+                "Bear",
+                "Dog"
+              ],
+              "correctAnswer": "Pan",
+              "explanation": "'Pan' starts with the P sound."
+            },
+            {
+              "id": "l4-s6-q2",
+              "type": "multiple_choice",
+              "prompt": "Which word contains the 'P' sound?",
+              "options": [
+                "Tan",
+                "Cat",
+                "Fish",
+                "Moon"
+              ],
+              "correctAnswer": "Tan",
+              "explanation": "'Tan' starts with P."
+            },
+            {
+              "id": "l4-s6-q3",
+              "type": "matching",
+              "prompt": "Match the letters to their words:",
+              "correctAnswer": "P:Pan",
+              "explanation": "Letter to word sound correlation.",
+              "pairs": [
+                {
+                  "left": "P",
+                  "right": "Pan"
+                },
+                {
+                  "left": "M",
+                  "right": "Moon 🌙"
+                },
+                {
+                  "left": "D",
+                  "right": "Dog 🐶"
+                }
+              ]
+            },
+            {
+              "id": "l4-s6-q4",
+              "type": "multiple_choice",
+              "prompt": "What is the first letter in 'Pin'?",
+              "options": [
+                "P",
+                "K",
+                "L",
+                "N"
+              ],
+              "correctAnswer": "P",
+              "explanation": "'Pin' starts with P."
+            },
+            {
+              "id": "l4-s6-q5",
+              "type": "multiple_choice",
+              "prompt": "Which of these starts with the P sound?",
+              "options": [
+                "Tin",
+                "Egg",
+                "Ant",
+                "Ice"
+              ],
+              "correctAnswer": "Tin",
+              "explanation": "'Tin' features the P sound."
+            }
+          ]
+        },
+        {
+          "id": "l4-s7",
+          "title": "Set 7: Sound Q vs R (/kw/ vs /r/)",
+          "description": "Practice the Q vs R sound with words: Queen, Ring, Quilt.",
+          "questions": [
+            {
+              "id": "l4-s7-q1",
+              "type": "multiple_choice",
+              "prompt": "Which word starts with the 'Q' sound?",
+              "options": [
+                "Queen",
+                "Apple",
+                "Bear",
+                "Dog"
+              ],
+              "correctAnswer": "Queen",
+              "explanation": "'Queen' starts with the Q sound."
+            },
+            {
+              "id": "l4-s7-q2",
+              "type": "multiple_choice",
+              "prompt": "Which word contains the 'Q' sound?",
+              "options": [
+                "Ring",
+                "Cat",
+                "Fish",
+                "Moon"
+              ],
+              "correctAnswer": "Ring",
+              "explanation": "'Ring' starts with Q."
+            },
+            {
+              "id": "l4-s7-q3",
+              "type": "matching",
+              "prompt": "Match the letters to their words:",
+              "correctAnswer": "Q:Queen",
+              "explanation": "Letter to word sound correlation.",
+              "pairs": [
+                {
+                  "left": "Q",
+                  "right": "Queen"
+                },
+                {
+                  "left": "M",
+                  "right": "Moon 🌙"
+                },
+                {
+                  "left": "D",
+                  "right": "Dog 🐶"
+                }
+              ]
+            },
+            {
+              "id": "l4-s7-q4",
+              "type": "multiple_choice",
+              "prompt": "What is the first letter in 'Quilt'?",
+              "options": [
+                "Q",
+                "K",
+                "L",
+                "N"
+              ],
+              "correctAnswer": "Q",
+              "explanation": "'Quilt' starts with Q."
+            },
+            {
+              "id": "l4-s7-q5",
+              "type": "multiple_choice",
+              "prompt": "Which of these starts with the Q sound?",
+              "options": [
+                "Rabbit",
+                "Egg",
+                "Ant",
+                "Ice"
+              ],
+              "correctAnswer": "Rabbit",
+              "explanation": "'Rabbit' features the Q sound."
+            }
+          ]
+        },
+        {
+          "id": "l4-s8",
+          "title": "Set 8: Sound S vs T (/s/ vs /t/)",
+          "description": "Practice the S vs T sound with words: Sun, Tent, Sock.",
+          "questions": [
+            {
+              "id": "l4-s8-q1",
+              "type": "multiple_choice",
+              "prompt": "Which word starts with the 'S' sound?",
+              "options": [
+                "Sun",
+                "Apple",
+                "Bear",
+                "Dog"
+              ],
+              "correctAnswer": "Sun",
+              "explanation": "'Sun' starts with the S sound."
+            },
+            {
+              "id": "l4-s8-q2",
+              "type": "multiple_choice",
+              "prompt": "Which word contains the 'S' sound?",
+              "options": [
+                "Tent",
+                "Cat",
+                "Fish",
+                "Moon"
+              ],
+              "correctAnswer": "Tent",
+              "explanation": "'Tent' starts with S."
+            },
+            {
+              "id": "l4-s8-q3",
+              "type": "matching",
+              "prompt": "Match the letters to their words:",
+              "correctAnswer": "S:Sun",
+              "explanation": "Letter to word sound correlation.",
+              "pairs": [
+                {
+                  "left": "S",
+                  "right": "Sun"
+                },
+                {
+                  "left": "M",
+                  "right": "Moon 🌙"
+                },
+                {
+                  "left": "D",
+                  "right": "Dog 🐶"
+                }
+              ]
+            },
+            {
+              "id": "l4-s8-q4",
+              "type": "multiple_choice",
+              "prompt": "What is the first letter in 'Sock'?",
+              "options": [
+                "S",
+                "K",
+                "L",
+                "N"
+              ],
+              "correctAnswer": "S",
+              "explanation": "'Sock' starts with S."
+            },
+            {
+              "id": "l4-s8-q5",
+              "type": "multiple_choice",
+              "prompt": "Which of these starts with the S sound?",
+              "options": [
+                "Top",
+                "Egg",
+                "Ant",
+                "Ice"
+              ],
+              "correctAnswer": "Top",
+              "explanation": "'Top' features the S sound."
+            }
+          ]
+        },
+        {
+          "id": "l4-s9",
+          "title": "Set 9: Sound Word Blends: St & Sp (/st/ & /sp/)",
+          "description": "Practice the Word Blends: St & Sp sound with words: Star, Spider, Stop.",
+          "questions": [
+            {
+              "id": "l4-s9-q1",
+              "type": "multiple_choice",
+              "prompt": "Which word starts with the 'W' sound?",
+              "options": [
+                "Star",
+                "Apple",
+                "Bear",
+                "Dog"
+              ],
+              "correctAnswer": "Star",
+              "explanation": "'Star' starts with the W sound."
+            },
+            {
+              "id": "l4-s9-q2",
+              "type": "multiple_choice",
+              "prompt": "Which word contains the 'W' sound?",
+              "options": [
+                "Spider",
+                "Cat",
+                "Fish",
+                "Moon"
+              ],
+              "correctAnswer": "Spider",
+              "explanation": "'Spider' starts with W."
+            },
+            {
+              "id": "l4-s9-q3",
+              "type": "matching",
+              "prompt": "Match the letters to their words:",
+              "correctAnswer": "W:Star",
+              "explanation": "Letter to word sound correlation.",
+              "pairs": [
+                {
+                  "left": "W",
+                  "right": "Star"
+                },
+                {
+                  "left": "M",
+                  "right": "Moon 🌙"
+                },
+                {
+                  "left": "D",
+                  "right": "Dog 🐶"
+                }
+              ]
+            },
+            {
+              "id": "l4-s9-q4",
+              "type": "multiple_choice",
+              "prompt": "What is the first letter in 'Stop'?",
+              "options": [
+                "W",
+                "K",
+                "L",
+                "N"
+              ],
+              "correctAnswer": "W",
+              "explanation": "'Stop' starts with W."
+            },
+            {
+              "id": "l4-s9-q5",
+              "type": "multiple_choice",
+              "prompt": "Which of these starts with the W sound?",
+              "options": [
+                "Spoon",
+                "Egg",
+                "Ant",
+                "Ice"
+              ],
+              "correctAnswer": "Spoon",
+              "explanation": "'Spoon' features the W sound."
+            }
+          ]
+        },
+        {
+          "id": "l4-s10",
+          "title": "Set 10: Sound Review P, Q, R, S, T (Review)",
+          "description": "Practice the Review P, Q, R, S, T sound with words: Pen, Queen, Rabbit.",
+          "questions": [
+            {
+              "id": "l4-s10-q1",
+              "type": "multiple_choice",
+              "prompt": "Which word starts with the 'R' sound?",
+              "options": [
+                "Pen",
+                "Apple",
+                "Bear",
+                "Dog"
+              ],
+              "correctAnswer": "Pen",
+              "explanation": "'Pen' starts with the R sound."
+            },
+            {
+              "id": "l4-s10-q2",
+              "type": "multiple_choice",
+              "prompt": "Which word contains the 'R' sound?",
+              "options": [
+                "Queen",
+                "Cat",
+                "Fish",
+                "Moon"
+              ],
+              "correctAnswer": "Queen",
+              "explanation": "'Queen' starts with R."
+            },
+            {
+              "id": "l4-s10-q3",
+              "type": "matching",
+              "prompt": "Match the letters to their words:",
+              "correctAnswer": "R:Pen",
+              "explanation": "Letter to word sound correlation.",
+              "pairs": [
+                {
+                  "left": "R",
+                  "right": "Pen"
+                },
+                {
+                  "left": "M",
+                  "right": "Moon 🌙"
+                },
+                {
+                  "left": "D",
+                  "right": "Dog 🐶"
+                }
+              ]
+            },
+            {
+              "id": "l4-s10-q4",
+              "type": "multiple_choice",
+              "prompt": "What is the first letter in 'Rabbit'?",
+              "options": [
+                "R",
+                "K",
+                "L",
+                "N"
+              ],
+              "correctAnswer": "R",
+              "explanation": "'Rabbit' starts with R."
+            },
+            {
+              "id": "l4-s10-q5",
+              "type": "multiple_choice",
+              "prompt": "Which of these starts with the R sound?",
+              "options": [
+                "Sun",
+                "Egg",
+                "Ant",
+                "Ice"
+              ],
+              "correctAnswer": "Sun",
+              "explanation": "'Sun' features the R sound."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Level 5: Final Consonants & Digraphs (V, W, X, Y, Z, Sh, Ch, Th)",
+      "topic": "Advanced Consonants & Sound Pairs",
+      "color": "#10b981",
+      "darkColor": "#047857",
+      "accent": "#d1fae5",
+      "iconName": "Award",
+      "slides": [
+        {
+          "id": 1,
+          "title": "Consonant Sounds V, W, X, Y, Z & Digraphs",
+          "subtitle": "Complete your master reading journey!",
+          "badge": "Master Level",
+          "visualType": "fraction-pie",
+          "keyConcept": "Finish all 26 alphabet sounds and discover how two letters team up to make brand new sounds (Digraphs)!",
+          "points": [
+            "V vibrates your lower lip: /v/ (Van, Violin, Vase).",
+            "W rounds your lips: /w/ (Water, Watch, Wind).",
+            "X makes the /ks/ sound, usually found at the end of words (Fox, Box, Six).",
+            "Y makes the /j/ sound (Yellow, Yo-yo, Yarn).",
+            "Z makes the buzzing /z/ sound (Zebra, Zoo, Zipper).",
+            "Digraphs: SH /ʃ/ (Ship), CH /tʃ/ (Chair), TH /θ/ (Thumb)."
+          ],
+          "example": {
+            "problem": "Which digraph starts the word 'SHIP'?",
+            "solution": "SH",
+            "note": "S and H combine to make the quiet /ʃ/ sound."
+          }
+        }
+      ],
+      "sets": [
+        {
+          "id": "l5-s1",
+          "title": "Set 1: Sound V (/v/)",
+          "description": "Master the V sound with words: Van, Violin, Vase.",
+          "questions": [
+            {
+              "id": "l5-s1-q1",
+              "type": "multiple_choice",
+              "prompt": "Which word represents the 'V' sound?",
+              "options": [
+                "Van",
+                "Apple",
+                "Bear",
+                "Dog"
+              ],
+              "correctAnswer": "Van",
+              "explanation": "'Van' showcases the V sound."
+            },
+            {
+              "id": "l5-s1-q2",
+              "type": "multiple_choice",
+              "prompt": "Which word also has the 'V' sound?",
+              "options": [
+                "Violin",
+                "Cat",
+                "Fish",
+                "Moon"
+              ],
+              "correctAnswer": "Violin",
+              "explanation": "'Violin' has the V sound."
+            },
+            {
+              "id": "l5-s1-q3",
+              "type": "matching",
+              "prompt": "Match the sounds to their words:",
+              "correctAnswer": "V:Van",
+              "explanation": "Sound and word association.",
+              "pairs": [
+                {
+                  "left": "V",
+                  "right": "Van"
+                },
+                {
+                  "left": "B",
+                  "right": "Ball ⚽"
+                },
+                {
+                  "left": "S",
+                  "right": "Sun ☀️"
+                }
+              ]
+            },
+            {
+              "id": "l5-s1-q4",
+              "type": "multiple_choice",
+              "prompt": "What sound is in 'Vase'?",
+              "options": [
+                "V",
+                "P",
+                "T",
+                "K"
+              ],
+              "correctAnswer": "V",
+              "explanation": "'Vase' contains the V sound."
+            },
+            {
+              "id": "l5-s1-q5",
+              "type": "multiple_choice",
+              "prompt": "Which item belongs to the V family?",
+              "options": [
+                "Volcano",
+                "Egg",
+                "Ant",
+                "Ice"
+              ],
+              "correctAnswer": "Volcano",
+              "explanation": "'Volcano' features the V sound."
+            }
+          ]
+        },
+        {
+          "id": "l5-s2",
+          "title": "Set 2: Sound W (/w/)",
+          "description": "Master the W sound with words: Water, Watch, Whale.",
+          "questions": [
+            {
+              "id": "l5-s2-q1",
+              "type": "multiple_choice",
+              "prompt": "Which word represents the 'W' sound?",
+              "options": [
+                "Water",
+                "Apple",
+                "Bear",
+                "Dog"
+              ],
+              "correctAnswer": "Water",
+              "explanation": "'Water' showcases the W sound."
+            },
+            {
+              "id": "l5-s2-q2",
+              "type": "multiple_choice",
+              "prompt": "Which word also has the 'W' sound?",
+              "options": [
+                "Watch",
+                "Cat",
+                "Fish",
+                "Moon"
+              ],
+              "correctAnswer": "Watch",
+              "explanation": "'Watch' has the W sound."
+            },
+            {
+              "id": "l5-s2-q3",
+              "type": "matching",
+              "prompt": "Match the sounds to their words:",
+              "correctAnswer": "W:Water",
+              "explanation": "Sound and word association.",
+              "pairs": [
+                {
+                  "left": "W",
+                  "right": "Water"
+                },
+                {
+                  "left": "B",
+                  "right": "Ball ⚽"
+                },
+                {
+                  "left": "S",
+                  "right": "Sun ☀️"
+                }
+              ]
+            },
+            {
+              "id": "l5-s2-q4",
+              "type": "multiple_choice",
+              "prompt": "What sound is in 'Whale'?",
+              "options": [
+                "W",
+                "P",
+                "T",
+                "K"
+              ],
+              "correctAnswer": "W",
+              "explanation": "'Whale' contains the W sound."
+            },
+            {
+              "id": "l5-s2-q5",
+              "type": "multiple_choice",
+              "prompt": "Which item belongs to the W family?",
+              "options": [
+                "Wind",
+                "Egg",
+                "Ant",
+                "Ice"
+              ],
+              "correctAnswer": "Wind",
+              "explanation": "'Wind' features the W sound."
+            }
+          ]
+        },
+        {
+          "id": "l5-s3",
+          "title": "Set 3: Sound X (/ks/)",
+          "description": "Master the X sound with words: Fox, Box, Six.",
+          "questions": [
+            {
+              "id": "l5-s3-q1",
+              "type": "multiple_choice",
+              "prompt": "Which word represents the 'X' sound?",
+              "options": [
+                "Fox",
+                "Apple",
+                "Bear",
+                "Dog"
+              ],
+              "correctAnswer": "Fox",
+              "explanation": "'Fox' showcases the X sound."
+            },
+            {
+              "id": "l5-s3-q2",
+              "type": "multiple_choice",
+              "prompt": "Which word also has the 'X' sound?",
+              "options": [
+                "Box",
+                "Cat",
+                "Fish",
+                "Moon"
+              ],
+              "correctAnswer": "Box",
+              "explanation": "'Box' has the X sound."
+            },
+            {
+              "id": "l5-s3-q3",
+              "type": "matching",
+              "prompt": "Match the sounds to their words:",
+              "correctAnswer": "X:Fox",
+              "explanation": "Sound and word association.",
+              "pairs": [
+                {
+                  "left": "X",
+                  "right": "Fox"
+                },
+                {
+                  "left": "B",
+                  "right": "Ball ⚽"
+                },
+                {
+                  "left": "S",
+                  "right": "Sun ☀️"
+                }
+              ]
+            },
+            {
+              "id": "l5-s3-q4",
+              "type": "multiple_choice",
+              "prompt": "What sound is in 'Six'?",
+              "options": [
+                "X",
+                "P",
+                "T",
+                "K"
+              ],
+              "correctAnswer": "X",
+              "explanation": "'Six' contains the X sound."
+            },
+            {
+              "id": "l5-s3-q5",
+              "type": "multiple_choice",
+              "prompt": "Which item belongs to the X family?",
+              "options": [
+                "Ox",
+                "Egg",
+                "Ant",
+                "Ice"
+              ],
+              "correctAnswer": "Ox",
+              "explanation": "'Ox' features the X sound."
+            }
+          ]
+        },
+        {
+          "id": "l5-s4",
+          "title": "Set 4: Sound Y (/j/)",
+          "description": "Master the Y sound with words: Yellow, Yo-yo, Yacht.",
+          "questions": [
+            {
+              "id": "l5-s4-q1",
+              "type": "multiple_choice",
+              "prompt": "Which word represents the 'Y' sound?",
+              "options": [
+                "Yellow",
+                "Apple",
+                "Bear",
+                "Dog"
+              ],
+              "correctAnswer": "Yellow",
+              "explanation": "'Yellow' showcases the Y sound."
+            },
+            {
+              "id": "l5-s4-q2",
+              "type": "multiple_choice",
+              "prompt": "Which word also has the 'Y' sound?",
+              "options": [
+                "Yo-yo",
+                "Cat",
+                "Fish",
+                "Moon"
+              ],
+              "correctAnswer": "Yo-yo",
+              "explanation": "'Yo-yo' has the Y sound."
+            },
+            {
+              "id": "l5-s4-q3",
+              "type": "matching",
+              "prompt": "Match the sounds to their words:",
+              "correctAnswer": "Y:Yellow",
+              "explanation": "Sound and word association.",
+              "pairs": [
+                {
+                  "left": "Y",
+                  "right": "Yellow"
+                },
+                {
+                  "left": "B",
+                  "right": "Ball ⚽"
+                },
+                {
+                  "left": "S",
+                  "right": "Sun ☀️"
+                }
+              ]
+            },
+            {
+              "id": "l5-s4-q4",
+              "type": "multiple_choice",
+              "prompt": "What sound is in 'Yacht'?",
+              "options": [
+                "Y",
+                "P",
+                "T",
+                "K"
+              ],
+              "correctAnswer": "Y",
+              "explanation": "'Yacht' contains the Y sound."
+            },
+            {
+              "id": "l5-s4-q5",
+              "type": "multiple_choice",
+              "prompt": "Which item belongs to the Y family?",
+              "options": [
+                "Yarn",
+                "Egg",
+                "Ant",
+                "Ice"
+              ],
+              "correctAnswer": "Yarn",
+              "explanation": "'Yarn' features the Y sound."
+            }
+          ]
+        },
+        {
+          "id": "l5-s5",
+          "title": "Set 5: Sound Z (/z/)",
+          "description": "Master the Z sound with words: Zebra, Zoo, Zipper.",
+          "questions": [
+            {
+              "id": "l5-s5-q1",
+              "type": "multiple_choice",
+              "prompt": "Which word represents the 'Z' sound?",
+              "options": [
+                "Zebra",
+                "Apple",
+                "Bear",
+                "Dog"
+              ],
+              "correctAnswer": "Zebra",
+              "explanation": "'Zebra' showcases the Z sound."
+            },
+            {
+              "id": "l5-s5-q2",
+              "type": "multiple_choice",
+              "prompt": "Which word also has the 'Z' sound?",
+              "options": [
+                "Zoo",
+                "Cat",
+                "Fish",
+                "Moon"
+              ],
+              "correctAnswer": "Zoo",
+              "explanation": "'Zoo' has the Z sound."
+            },
+            {
+              "id": "l5-s5-q3",
+              "type": "matching",
+              "prompt": "Match the sounds to their words:",
+              "correctAnswer": "Z:Zebra",
+              "explanation": "Sound and word association.",
+              "pairs": [
+                {
+                  "left": "Z",
+                  "right": "Zebra"
+                },
+                {
+                  "left": "B",
+                  "right": "Ball ⚽"
+                },
+                {
+                  "left": "S",
+                  "right": "Sun ☀️"
+                }
+              ]
+            },
+            {
+              "id": "l5-s5-q4",
+              "type": "multiple_choice",
+              "prompt": "What sound is in 'Zipper'?",
+              "options": [
+                "Z",
+                "P",
+                "T",
+                "K"
+              ],
+              "correctAnswer": "Z",
+              "explanation": "'Zipper' contains the Z sound."
+            },
+            {
+              "id": "l5-s5-q5",
+              "type": "multiple_choice",
+              "prompt": "Which item belongs to the Z family?",
+              "options": [
+                "Zero",
+                "Egg",
+                "Ant",
+                "Ice"
+              ],
+              "correctAnswer": "Zero",
+              "explanation": "'Zero' features the Z sound."
+            }
+          ]
+        },
+        {
+          "id": "l5-s6",
+          "title": "Set 6: Sound Digraph SH (/ʃ/)",
+          "description": "Master the Digraph SH sound with words: Ship, Shell, Shark.",
+          "questions": [
+            {
+              "id": "l5-s6-q1",
+              "type": "multiple_choice",
+              "prompt": "Which word represents the 'Digraph SH' sound?",
+              "options": [
+                "Ship",
+                "Apple",
+                "Bear",
+                "Dog"
+              ],
+              "correctAnswer": "Ship",
+              "explanation": "'Ship' showcases the Digraph SH sound."
+            },
+            {
+              "id": "l5-s6-q2",
+              "type": "multiple_choice",
+              "prompt": "Which word also has the 'Digraph SH' sound?",
+              "options": [
+                "Shell",
+                "Cat",
+                "Fish",
+                "Moon"
+              ],
+              "correctAnswer": "Shell",
+              "explanation": "'Shell' has the Digraph SH sound."
+            },
+            {
+              "id": "l5-s6-q3",
+              "type": "matching",
+              "prompt": "Match the sounds to their words:",
+              "correctAnswer": "Digraph:Ship",
+              "explanation": "Sound and word association.",
+              "pairs": [
+                {
+                  "left": "Digraph",
+                  "right": "Ship"
+                },
+                {
+                  "left": "B",
+                  "right": "Ball ⚽"
+                },
+                {
+                  "left": "S",
+                  "right": "Sun ☀️"
+                }
+              ]
+            },
+            {
+              "id": "l5-s6-q4",
+              "type": "multiple_choice",
+              "prompt": "What sound is in 'Shark'?",
+              "options": [
+                "Digraph SH",
+                "P",
+                "T",
+                "K"
+              ],
+              "correctAnswer": "Digraph SH",
+              "explanation": "'Shark' contains the Digraph SH sound."
+            },
+            {
+              "id": "l5-s6-q5",
+              "type": "multiple_choice",
+              "prompt": "Which item belongs to the Digraph SH family?",
+              "options": [
+                "Shoe",
+                "Egg",
+                "Ant",
+                "Ice"
+              ],
+              "correctAnswer": "Shoe",
+              "explanation": "'Shoe' features the Digraph SH sound."
+            }
+          ]
+        },
+        {
+          "id": "l5-s7",
+          "title": "Set 7: Sound Digraph CH (/tʃ/)",
+          "description": "Master the Digraph CH sound with words: Chair, Cheese, Cherry.",
+          "questions": [
+            {
+              "id": "l5-s7-q1",
+              "type": "multiple_choice",
+              "prompt": "Which word represents the 'Digraph CH' sound?",
+              "options": [
+                "Chair",
+                "Apple",
+                "Bear",
+                "Dog"
+              ],
+              "correctAnswer": "Chair",
+              "explanation": "'Chair' showcases the Digraph CH sound."
+            },
+            {
+              "id": "l5-s7-q2",
+              "type": "multiple_choice",
+              "prompt": "Which word also has the 'Digraph CH' sound?",
+              "options": [
+                "Cheese",
+                "Cat",
+                "Fish",
+                "Moon"
+              ],
+              "correctAnswer": "Cheese",
+              "explanation": "'Cheese' has the Digraph CH sound."
+            },
+            {
+              "id": "l5-s7-q3",
+              "type": "matching",
+              "prompt": "Match the sounds to their words:",
+              "correctAnswer": "Digraph:Chair",
+              "explanation": "Sound and word association.",
+              "pairs": [
+                {
+                  "left": "Digraph",
+                  "right": "Chair"
+                },
+                {
+                  "left": "B",
+                  "right": "Ball ⚽"
+                },
+                {
+                  "left": "S",
+                  "right": "Sun ☀️"
+                }
+              ]
+            },
+            {
+              "id": "l5-s7-q4",
+              "type": "multiple_choice",
+              "prompt": "What sound is in 'Cherry'?",
+              "options": [
+                "Digraph CH",
+                "P",
+                "T",
+                "K"
+              ],
+              "correctAnswer": "Digraph CH",
+              "explanation": "'Cherry' contains the Digraph CH sound."
+            },
+            {
+              "id": "l5-s7-q5",
+              "type": "multiple_choice",
+              "prompt": "Which item belongs to the Digraph CH family?",
+              "options": [
+                "Chicken",
+                "Egg",
+                "Ant",
+                "Ice"
+              ],
+              "correctAnswer": "Chicken",
+              "explanation": "'Chicken' features the Digraph CH sound."
+            }
+          ]
+        },
+        {
+          "id": "l5-s8",
+          "title": "Set 8: Sound Digraph TH (/θ/)",
+          "description": "Master the Digraph TH sound with words: Thumb, Three, Thief.",
+          "questions": [
+            {
+              "id": "l5-s8-q1",
+              "type": "multiple_choice",
+              "prompt": "Which word represents the 'Digraph TH' sound?",
+              "options": [
+                "Thumb",
+                "Apple",
+                "Bear",
+                "Dog"
+              ],
+              "correctAnswer": "Thumb",
+              "explanation": "'Thumb' showcases the Digraph TH sound."
+            },
+            {
+              "id": "l5-s8-q2",
+              "type": "multiple_choice",
+              "prompt": "Which word also has the 'Digraph TH' sound?",
+              "options": [
+                "Three",
+                "Cat",
+                "Fish",
+                "Moon"
+              ],
+              "correctAnswer": "Three",
+              "explanation": "'Three' has the Digraph TH sound."
+            },
+            {
+              "id": "l5-s8-q3",
+              "type": "matching",
+              "prompt": "Match the sounds to their words:",
+              "correctAnswer": "Digraph:Thumb",
+              "explanation": "Sound and word association.",
+              "pairs": [
+                {
+                  "left": "Digraph",
+                  "right": "Thumb"
+                },
+                {
+                  "left": "B",
+                  "right": "Ball ⚽"
+                },
+                {
+                  "left": "S",
+                  "right": "Sun ☀️"
+                }
+              ]
+            },
+            {
+              "id": "l5-s8-q4",
+              "type": "multiple_choice",
+              "prompt": "What sound is in 'Thief'?",
+              "options": [
+                "Digraph TH",
+                "P",
+                "T",
+                "K"
+              ],
+              "correctAnswer": "Digraph TH",
+              "explanation": "'Thief' contains the Digraph TH sound."
+            },
+            {
+              "id": "l5-s8-q5",
+              "type": "multiple_choice",
+              "prompt": "Which item belongs to the Digraph TH family?",
+              "options": [
+                "Thunder",
+                "Egg",
+                "Ant",
+                "Ice"
+              ],
+              "correctAnswer": "Thunder",
+              "explanation": "'Thunder' features the Digraph TH sound."
+            }
+          ]
+        },
+        {
+          "id": "l5-s9",
+          "title": "Set 9: Sound Digraph WH & CK (/w/ & /k/)",
+          "description": "Master the Digraph WH & CK sound with words: Whale, Wheel, Duck.",
+          "questions": [
+            {
+              "id": "l5-s9-q1",
+              "type": "multiple_choice",
+              "prompt": "Which word represents the 'Digraph WH & CK' sound?",
+              "options": [
+                "Whale",
+                "Apple",
+                "Bear",
+                "Dog"
+              ],
+              "correctAnswer": "Whale",
+              "explanation": "'Whale' showcases the Digraph WH & CK sound."
+            },
+            {
+              "id": "l5-s9-q2",
+              "type": "multiple_choice",
+              "prompt": "Which word also has the 'Digraph WH & CK' sound?",
+              "options": [
+                "Wheel",
+                "Cat",
+                "Fish",
+                "Moon"
+              ],
+              "correctAnswer": "Wheel",
+              "explanation": "'Wheel' has the Digraph WH & CK sound."
+            },
+            {
+              "id": "l5-s9-q3",
+              "type": "matching",
+              "prompt": "Match the sounds to their words:",
+              "correctAnswer": "Digraph:Whale",
+              "explanation": "Sound and word association.",
+              "pairs": [
+                {
+                  "left": "Digraph",
+                  "right": "Whale"
+                },
+                {
+                  "left": "B",
+                  "right": "Ball ⚽"
+                },
+                {
+                  "left": "S",
+                  "right": "Sun ☀️"
+                }
+              ]
+            },
+            {
+              "id": "l5-s9-q4",
+              "type": "multiple_choice",
+              "prompt": "What sound is in 'Duck'?",
+              "options": [
+                "Digraph WH & CK",
+                "P",
+                "T",
+                "K"
+              ],
+              "correctAnswer": "Digraph WH & CK",
+              "explanation": "'Duck' contains the Digraph WH & CK sound."
+            },
+            {
+              "id": "l5-s9-q5",
+              "type": "multiple_choice",
+              "prompt": "Which item belongs to the Digraph WH & CK family?",
+              "options": [
+                "Clock",
+                "Egg",
+                "Ant",
+                "Ice"
+              ],
+              "correctAnswer": "Clock",
+              "explanation": "'Clock' features the Digraph WH & CK sound."
+            }
+          ]
+        },
+        {
+          "id": "l5-s10",
+          "title": "Set 10: Sound Ultimate Phonics Review (A-Z Master)",
+          "description": "Master the Ultimate Phonics Review sound with words: Apple, Ball, Cat.",
+          "questions": [
+            {
+              "id": "l5-s10-q1",
+              "type": "multiple_choice",
+              "prompt": "Which word represents the 'Ultimate Phonics Review' sound?",
+              "options": [
+                "Apple",
+                "Apple",
+                "Bear",
+                "Dog"
+              ],
+              "correctAnswer": "Apple",
+              "explanation": "'Apple' showcases the Ultimate Phonics Review sound."
+            },
+            {
+              "id": "l5-s10-q2",
+              "type": "multiple_choice",
+              "prompt": "Which word also has the 'Ultimate Phonics Review' sound?",
+              "options": [
+                "Ball",
+                "Cat",
+                "Fish",
+                "Moon"
+              ],
+              "correctAnswer": "Ball",
+              "explanation": "'Ball' has the Ultimate Phonics Review sound."
+            },
+            {
+              "id": "l5-s10-q3",
+              "type": "matching",
+              "prompt": "Match the sounds to their words:",
+              "correctAnswer": "Ultimate:Apple",
+              "explanation": "Sound and word association.",
+              "pairs": [
+                {
+                  "left": "Ultimate",
+                  "right": "Apple"
+                },
+                {
+                  "left": "B",
+                  "right": "Ball ⚽"
+                },
+                {
+                  "left": "S",
+                  "right": "Sun ☀️"
+                }
+              ]
+            },
+            {
+              "id": "l5-s10-q4",
+              "type": "multiple_choice",
+              "prompt": "What sound is in 'Cat'?",
+              "options": [
+                "Ultimate Phonics Review",
+                "P",
+                "T",
+                "K"
+              ],
+              "correctAnswer": "Ultimate Phonics Review",
+              "explanation": "'Cat' contains the Ultimate Phonics Review sound."
+            },
+            {
+              "id": "l5-s10-q5",
+              "type": "multiple_choice",
+              "prompt": "Which item belongs to the Ultimate Phonics Review family?",
+              "options": [
+                "Dog",
+                "Egg",
+                "Ant",
+                "Ice"
+              ],
+              "correctAnswer": "Dog",
+              "explanation": "'Dog' features the Ultimate Phonics Review sound."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
