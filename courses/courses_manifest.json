@@ -12,5 +12,15 @@
       "icon": "Calculator",
       "sortOrder": 1
     }
+    {  "id": "course_phonics",
+  "title": "Phonics & Letter Sounds Master",
+  "description": "Complete Phonics journey covering all vowels and consonants (A-Z & Digraphs). 5 Levels, 50 Practice Sets, 250 Interactive Questions!",
+  "version": "1.0.0",
+      "levelsCount": 5,
+      "version": "1.0.0",
+      "packageUrl": "course_phonics.json",
+      "icon": "Calculator",
+      "sortOrder": 2
+    }
   ]
 }
