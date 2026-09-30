@@ -1,0 +1,2323 @@
+{
+  "id": "course_graphs",
+  "title": "Graphs, Curves & Plotting Master",
+  "description": "Interactive Cartesian Graphing: Linear Lines, Parabolas, Absolute V-Shapes, Cubics, Hyperbolas & Waves (5 Levels, 25 Practice Sets + Live Random Generator)",
+  "version": "1.0.0",
+  "author": "PL fun Visual Math Lab",
+  "icon": "TrendingUp",
+  "levelsCount": 5,
+  "totalSets": 25,
+  "totalQuestions": 125,
+  "packageUrl": "course_graphs.json",
+  "updatedAt": "2026-09-30T18:44:29.473Z",
+  "levels": [
+    {
+      "id": 1,
+      "title": "Level 1: Linear Lines (y = mx + c)",
+      "topic": "Straight Lines & Slopes",
+      "color": "#6366f1",
+      "darkColor": "#4f46e5",
+      "accent": "#e0e7ff",
+      "iconName": "TrendingUp",
+      "slides": [
+        {
+          "id": 1,
+          "title": "The Cartesian Coordinate Plane",
+          "subtitle": "Every point is defined by an address pair (x, y).",
+          "badge": "Core Basics",
+          "visualType": "graph-linear",
+          "keyConcept": "X is horizontal (left/right), Y is vertical (up/down). The origin is (0, 0).",
+          "points": [
+            "Start at the origin (0, 0).",
+            "Move along X first (positive = right, negative = left).",
+            "Move along Y second (positive = up, negative = down)."
+          ],
+          "example": {
+            "problem": "Locate point (3, 2).",
+            "solution": "Move 3 units right, then 2 units up.",
+            "note": "Order matters! (3, 2) is completely different from (2, 3)."
+          }
+        },
+        {
+          "id": 2,
+          "title": "Slope (m): The Steepness of a Line",
+          "subtitle": "Slope measures how fast the line rises or falls: Rise over Run.",
+          "badge": "Slope Formula",
+          "visualType": "graph-linear",
+          "keyConcept": "Slope m = Rise / Run = (y₂ - y₁) / (x₂ - x₁).",
+          "points": [
+            "Positive slope (m > 0): Line climbs upwards from left to right.",
+            "Negative slope (m < 0): Line falls downwards from left to right.",
+            "Zero slope (m = 0): Completely flat horizontal line."
+          ],
+          "example": {
+            "problem": "Find slope between (0, 1) and (2, 5).",
+            "solution": "Rise = 5 - 1 = 4. Run = 2 - 0 = 2. Slope m = 4 / 2 = 2.",
+            "note": "For every 1 step right, the line climbs 2 steps up!"
+          }
+        },
+        {
+          "id": 3,
+          "title": "The Y-Intercept (c)",
+          "subtitle": "Where the straight line crosses the vertical Y-axis.",
+          "badge": "Intercept",
+          "visualType": "graph-linear",
+          "keyConcept": "In y = mx + c, the letter 'c' is the Y-intercept. It is the point (0, c).",
+          "points": [
+            "Set x = 0 to find the Y-intercept: y = m(0) + c = c.",
+            "If c is positive, the line crosses above the origin.",
+            "If c is negative, the line crosses below the origin."
+          ],
+          "example": {
+            "problem": "What is the Y-intercept of y = 3x - 4?",
+            "solution": "c = -4, so the line crosses the Y-axis at (0, -4).",
+            "note": "Always look at the constant number added or subtracted at the end."
+          }
+        }
+      ],
+      "sets": [
+        {
+          "id": "lvl1-set1",
+          "title": "Set 1: Reading Coordinates",
+          "description": "Identify and plot coordinate points (x, y) on the plane.",
+          "questions": [
+            {
+              "id": "l1-s1-q1",
+              "type": "multiple_choice",
+              "prompt": "In the coordinate point (-3, 4), what is the value of the x-coordinate?",
+              "subPrompt": "Coordinates are always written as (x, y):",
+              "options": [
+                "-3",
+                "4",
+                "1",
+                "7"
+              ],
+              "correctAnswer": "-3",
+              "explanation": "In (x, y), the first number is x (-3) and the second number is y (4)."
+            },
+            {
+              "id": "l1-s1-q2",
+              "type": "multiple_choice",
+              "prompt": "Which point represents the Origin where both axes intersect?",
+              "options": [
+                "(0, 0)",
+                "(1, 1)",
+                "(0, 1)",
+                "(1, 0)"
+              ],
+              "correctAnswer": "(0, 0)",
+              "explanation": "The Origin is the central reference point (0, 0)."
+            },
+            {
+              "id": "l1-s1-q3",
+              "type": "numeric",
+              "prompt": "If you start at (0, 0) and move 4 units right and 3 units down, what is the y-coordinate?",
+              "subPrompt": "Downwards motion on Y is negative:",
+              "correctAnswer": "-3",
+              "explanation": "Moving 3 units down from 0 gives y = -3. The point is (4, -3)."
+            },
+            {
+              "id": "l1-s1-q4",
+              "type": "matching",
+              "prompt": "Match each point to its quadrant:",
+              "correctAnswer": "matched",
+              "pairs": [
+                {
+                  "left": "(3, 4)",
+                  "right": "Quadrant I (+, +)"
+                },
+                {
+                  "left": "(-2, 5)",
+                  "right": "Quadrant II (-, +)"
+                },
+                {
+                  "left": "(-4, -3)",
+                  "right": "Quadrant III (-, -)"
+                },
+                {
+                  "left": "(5, -2)",
+                  "right": "Quadrant IV (+, -)"
+                }
+              ],
+              "explanation": "Quadrant signs: I (+,+), II (-,+), III (-,-), IV (+,-)."
+            },
+            {
+              "id": "l1-s1-q5",
+              "type": "graph_plot",
+              "prompt": "Plot 2 points that lie on the line y = x + 1.",
+              "subPrompt": "Tap the grid to plot (0, 1) and (2, 3), then tap Check!",
+              "correctAnswer": "y = x + 1",
+              "explanation": "At x=0, y=0+1=1 -> (0, 1). At x=2, y=2+1=3 -> (2, 3).",
+              "graphConfig": {
+                "equation": "y = x + 1",
+                "curveType": "linear",
+                "requiredPointsCount": 2,
+                "checkEquation": true,
+                "instruction": "Plot 2 points on y = x + 1",
+                "helperTable": [
+                  {
+                    "x": 0,
+                    "y": 1
+                  },
+                  {
+                    "x": 1,
+                    "y": 2
+                  },
+                  {
+                    "x": 2,
+                    "y": 3
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "lvl1-set2",
+          "title": "Set 2: Slope Intuition (Rise / Run)",
+          "description": "Understand slope steepness and direction.",
+          "questions": [
+            {
+              "id": "l1-s2-q1",
+              "type": "multiple_choice",
+              "prompt": "What is the slope of the line y = 3x + 2?",
+              "subPrompt": "Compare with y = mx + c:",
+              "options": [
+                "3",
+                "2",
+                "3x",
+                "5"
+              ],
+              "correctAnswer": "3",
+              "explanation": "In y = mx + c, the slope is m = 3."
+            },
+            {
+              "id": "l1-s2-q2",
+              "type": "multiple_choice",
+              "prompt": "Does the line y = -2x + 5 slope upwards or downwards from left to right?",
+              "options": [
+                "Downwards (negative slope)",
+                "Upwards (positive slope)",
+                "Completely horizontal",
+                "Completely vertical"
+              ],
+              "correctAnswer": "Downwards (negative slope)",
+              "explanation": "Because m = -2 is negative, the line slants downwards from left to right."
+            },
+            {
+              "id": "l1-s2-q3",
+              "type": "numeric",
+              "prompt": "A line goes through (0, 0) and (2, 6). Calculate the slope m = Rise / Run:",
+              "subPrompt": "Rise = 6, Run = 2:",
+              "correctAnswer": "3",
+              "explanation": "Slope m = 6 / 2 = 3."
+            },
+            {
+              "id": "l1-s2-q4",
+              "type": "graph_plot",
+              "prompt": "Plot 2 points on the line y = 2x - 1.",
+              "subPrompt": "When x=0, y=-1. When x=2, y=3.",
+              "correctAnswer": "y = 2x - 1",
+              "explanation": "Points (0, -1) and (2, 3) lie on y = 2x - 1.",
+              "graphConfig": {
+                "equation": "y = 2x - 1",
+                "curveType": "linear",
+                "requiredPointsCount": 2,
+                "checkEquation": true,
+                "instruction": "Plot 2 points on y = 2x - 1",
+                "helperTable": [
+                  {
+                    "x": 0,
+                    "y": -1
+                  },
+                  {
+                    "x": 1,
+                    "y": 1
+                  },
+                  {
+                    "x": 2,
+                    "y": 3
+                  }
+                ]
+              }
+            },
+            {
+              "id": "l1-s2-q5",
+              "type": "multiple_choice",
+              "prompt": "What is the slope of a flat horizontal line like y = 4?",
+              "options": [
+                "0",
+                "4",
+                "Undefined",
+                "1"
+              ],
+              "correctAnswer": "0",
+              "explanation": "A horizontal line has zero rise (Rise = 0), so slope m = 0 / Run = 0."
+            }
+          ]
+        },
+        {
+          "id": "lvl1-set3",
+          "title": "Set 3: Intercepts (Where Lines Cross Axes)",
+          "description": "Calculate and plot Y-intercepts and X-intercepts.",
+          "questions": [
+            {
+              "id": "l1-s3-q1",
+              "type": "multiple_choice",
+              "prompt": "Where does the line y = 4x - 3 cross the Y-axis?",
+              "options": [
+                "(0, -3)",
+                "(-3, 0)",
+                "(0, 4)",
+                "(4, 0)"
+              ],
+              "correctAnswer": "(0, -3)",
+              "explanation": "Set x = 0: y = 4(0) - 3 = -3. The Y-intercept is (0, -3)."
+            },
+            {
+              "id": "l1-s3-q2",
+              "type": "numeric",
+              "prompt": "For the line y = 2x - 6, find the X-intercept (the value of x when y = 0):",
+              "subPrompt": "0 = 2x - 6 => 2x = 6 => x = ?",
+              "correctAnswer": "3",
+              "explanation": "Set y = 0: 0 = 2x - 6 => 2x = 6 => x = 3."
+            },
+            {
+              "id": "l1-s3-q3",
+              "type": "graph_plot",
+              "prompt": "Plot the X and Y intercepts for the line y = -x + 3.",
+              "subPrompt": "Y-intercept is (0, 3) and X-intercept is (3, 0)!",
+              "correctAnswer": "y = -x + 3",
+              "explanation": "At x=0, y=3 -> (0, 3). At y=0, x=3 -> (3, 0).",
+              "graphConfig": {
+                "equation": "y = -x + 3",
+                "curveType": "linear",
+                "requiredPointsCount": 2,
+                "checkEquation": true,
+                "instruction": "Plot (0, 3) and (3, 0) on y = -x + 3",
+                "helperTable": [
+                  {
+                    "x": 0,
+                    "y": 3
+                  },
+                  {
+                    "x": 3,
+                    "y": 0
+                  }
+                ]
+              }
+            },
+            {
+              "id": "l1-s3-q4",
+              "type": "matching",
+              "prompt": "Match each equation to its Y-intercept:",
+              "correctAnswer": "matched",
+              "pairs": [
+                {
+                  "left": "y = 5x + 4",
+                  "right": "Crosses at (0, 4)"
+                },
+                {
+                  "left": "y = -2x - 1",
+                  "right": "Crosses at (0, -1)"
+                },
+                {
+                  "left": "y = 3x",
+                  "right": "Crosses at (0, 0)"
+                },
+                {
+                  "left": "y = -x + 2",
+                  "right": "Crosses at (0, 2)"
+                }
+              ],
+              "explanation": "The constant term c dictates where the line intersects the Y-axis."
+            },
+            {
+              "id": "l1-s3-q5",
+              "type": "numeric",
+              "prompt": "If y = -3x + 10, what is the value of y when x = 2?",
+              "subPrompt": "y = -3(2) + 10:",
+              "correctAnswer": "4",
+              "explanation": "y = -3(2) + 10 = -6 + 10 = 4."
+            }
+          ]
+        },
+        {
+          "id": "lvl1-set4",
+          "title": "Set 4: Graphing Lines from Equations",
+          "description": "Connect points to draw complete straight lines.",
+          "questions": [
+            {
+              "id": "l1-s4-q1",
+              "type": "graph_plot",
+              "prompt": "Plot 2 points on the line y = 2x.",
+              "subPrompt": "The line passes through the Origin (0, 0)!",
+              "correctAnswer": "y = 2x",
+              "explanation": "Points (0, 0) and (1, 2) lie directly on y = 2x.",
+              "graphConfig": {
+                "equation": "y = 2x",
+                "curveType": "linear",
+                "requiredPointsCount": 2,
+                "checkEquation": true,
+                "instruction": "Plot 2 points on y = 2x",
+                "helperTable": [
+                  {
+                    "x": 0,
+                    "y": 0
+                  },
+                  {
+                    "x": 1,
+                    "y": 2
+                  },
+                  {
+                    "x": -1,
+                    "y": -2
+                  }
+                ]
+              }
+            },
+            {
+              "id": "l1-s4-q2",
+              "type": "graph_plot",
+              "prompt": "Plot 2 points on the line y = -2x + 4.",
+              "subPrompt": "When x=0, y=4. When x=2, y=0.",
+              "correctAnswer": "y = -2x + 4",
+              "explanation": "Points (0, 4) and (2, 0) satisfy y = -2(0)+4=4 and -2(2)+4=0.",
+              "graphConfig": {
+                "equation": "y = -2x + 4",
+                "curveType": "linear",
+                "requiredPointsCount": 2,
+                "checkEquation": true,
+                "instruction": "Plot 2 points on y = -2x + 4",
+                "helperTable": [
+                  {
+                    "x": 0,
+                    "y": 4
+                  },
+                  {
+                    "x": 1,
+                    "y": 2
+                  },
+                  {
+                    "x": 2,
+                    "y": 0
+                  }
+                ]
+              }
+            },
+            {
+              "id": "l1-s4-q3",
+              "type": "multiple_choice",
+              "prompt": "Two lines are PARALLEL if they have:",
+              "options": [
+                "The same slope (m₁ = m₂)",
+                "The same Y-intercept",
+                "Opposite slopes",
+                "Negative slopes only"
+              ],
+              "correctAnswer": "The same slope (m₁ = m₂)",
+              "explanation": "Parallel lines never meet because they have the exact same steepness (equal slopes)."
+            },
+            {
+              "id": "l1-s4-q4",
+              "type": "numeric",
+              "prompt": "Find the slope of a line parallel to y = -5x + 12:",
+              "subPrompt": "Parallel lines have identical slopes:",
+              "correctAnswer": "-5",
+              "explanation": "A parallel line must have the exact same slope m = -5."
+            },
+            {
+              "id": "l1-s4-q5",
+              "type": "graph_plot",
+              "prompt": "Plot 2 points on the line y = x - 2.",
+              "subPrompt": "When x=0, y=-2. When x=3, y=1.",
+              "correctAnswer": "y = x - 2",
+              "explanation": "Points (0, -2) and (3, 1) lie on y = x - 2.",
+              "graphConfig": {
+                "equation": "y = x - 2",
+                "curveType": "linear",
+                "requiredPointsCount": 2,
+                "checkEquation": true,
+                "instruction": "Plot 2 points on y = x - 2",
+                "helperTable": [
+                  {
+                    "x": 0,
+                    "y": -2
+                  },
+                  {
+                    "x": 2,
+                    "y": 0
+                  },
+                  {
+                    "x": 3,
+                    "y": 1
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "lvl1-set5",
+          "title": "Set 5: 🎲 Dynamic Linear Challenge (Live Generated)",
+          "description": "Freshly generated random lines, slopes, and intercepts calculated on the fly every time!",
+          "isDynamic": true,
+          "dynamicType": "linear",
+          "questions": [
+            {
+              "id": "l1-s5-seed1",
+              "type": "graph_plot",
+              "prompt": "Plot 2 points that lie on the line y = 2x - 1.",
+              "subPrompt": "Tap the grid to plot points, then tap Check!",
+              "correctAnswer": "y = 2x - 1",
+              "explanation": "At x=0, y=-1. At x=1, y=1. At x=2, y=3.",
+              "graphConfig": {
+                "equation": "y = 2x - 1",
+                "curveType": "linear",
+                "requiredPointsCount": 2,
+                "checkEquation": true,
+                "helperTable": [
+                  {
+                    "x": 0,
+                    "y": -1
+                  },
+                  {
+                    "x": 1,
+                    "y": 1
+                  }
+                ]
+              }
+            },
+            {
+              "id": "l1-s5-seed2",
+              "type": "numeric",
+              "prompt": "For the line y = 3x - 2, what is the value of y when x = 3?",
+              "subPrompt": "Calculate y = 3(3) - 2:",
+              "correctAnswer": "7",
+              "explanation": "y = 3(3) - 2 = 9 - 2 = 7."
+            },
+            {
+              "id": "l1-s5-seed3",
+              "type": "multiple_choice",
+              "prompt": "A line passes through (1, 2) and (3, 8). What is its slope (m)?",
+              "subPrompt": "m = (8 - 2) / (3 - 1):",
+              "options": [
+                "3",
+                "2",
+                "6",
+                "4"
+              ],
+              "correctAnswer": "3",
+              "explanation": "m = (8 - 2) / (3 - 1) = 6 / 2 = 3."
+            },
+            {
+              "id": "l1-s5-seed4",
+              "type": "multiple_choice",
+              "prompt": "At which point does the line y = -2x + 4 cross the Y-axis?",
+              "options": [
+                "(0, 4)",
+                "(4, 0)",
+                "(0, -2)",
+                "(2, 0)"
+              ],
+              "correctAnswer": "(0, 4)",
+              "explanation": "Setting x = 0 gives y = 4, so the Y-intercept is (0, 4)."
+            },
+            {
+              "id": "l1-s5-seed5",
+              "type": "graph_plot",
+              "prompt": "Plot 2 points on the line y = -x + 2.",
+              "subPrompt": "When x=0, y=2. When x=2, y=0.",
+              "correctAnswer": "y = -x + 2",
+              "explanation": "Points (0, 2) and (2, 0) satisfy y = -x + 2.",
+              "graphConfig": {
+                "equation": "y = -x + 2",
+                "curveType": "linear",
+                "requiredPointsCount": 2,
+                "checkEquation": true,
+                "helperTable": [
+                  {
+                    "x": 0,
+                    "y": 2
+                  },
+                  {
+                    "x": 2,
+                    "y": 0
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Level 2: Parabolas (y = ax² + bx + c)",
+      "topic": "Quadratic Curves & Vertices",
+      "color": "#10b981",
+      "darkColor": "#059669",
+      "accent": "#d1fae5",
+      "iconName": "Maximize2",
+      "slides": [
+        {
+          "id": 1,
+          "title": "The Parabola: Nature's U-Curve",
+          "subtitle": "Quadratic equations curve smoothly instead of making straight lines.",
+          "badge": "Curvature",
+          "visualType": "graph-parabola",
+          "keyConcept": "Standard form y = ax² + bx + c. The squaring makes negative numbers become positive: (-2)² = +4!",
+          "points": [
+            "The curve is symmetrical across a vertical central line (Axis of Symmetry).",
+            "Left and right arms rise together: (-1)² = 1 and (+1)² = 1.",
+            "Water fountains and satellite dishes are shaped like parabolas!"
+          ],
+          "example": {
+            "problem": "Calculate points for y = x².",
+            "solution": "x=-2 -> y=4; x=-1 -> y=1; x=0 -> y=0; x=1 -> y=1; x=2 -> y=4.",
+            "note": "Notice how (1, 1) mirrors (-1, 1) perfectly across the Y-axis."
+          }
+        },
+        {
+          "id": 2,
+          "title": "The Vertex: Peak or Valley",
+          "subtitle": "The lowest point (minimum) or highest point (maximum) of the curve.",
+          "badge": "Turning Point",
+          "visualType": "graph-parabola",
+          "keyConcept": "In vertex form y = a(x - h)² + k, the vertex is located at (h, k).",
+          "points": [
+            "If a > 0: The parabola opens UP like a cup. The vertex is a Minimum.",
+            "If a < 0: The parabola opens DOWN like an umbrella. The vertex is a Maximum.",
+            "Shifting (x - h) shifts horizontally, and +k shifts vertically."
+          ],
+          "example": {
+            "problem": "Where is the vertex of y = (x - 3)² + 2?",
+            "solution": "h = 3, k = 2. The vertex is at (3, 2).",
+            "note": "Remember the sign flip: (x - 3) means h is positive +3!"
+          }
+        }
+      ],
+      "sets": [
+        {
+          "id": "lvl2-set1",
+          "title": "Set 1: The Standard Parabola y = x²",
+          "description": "Plot and explore the core parent quadratic curve.",
+          "questions": [
+            {
+              "id": "l2-s1-q1",
+              "type": "multiple_choice",
+              "prompt": "What is the vertex (lowest turning point) of the basic parabola y = x²?",
+              "options": [
+                "(0, 0)",
+                "(1, 1)",
+                "(0, 1)",
+                "(2, 4)"
+              ],
+              "correctAnswer": "(0, 0)",
+              "explanation": "The minimum point of y = x² is at the origin (0, 0)."
+            },
+            {
+              "id": "l2-s1-q2",
+              "type": "numeric",
+              "prompt": "For y = x², calculate y when x = -3:",
+              "subPrompt": "(-3)² = (-3) × (-3):",
+              "correctAnswer": "9",
+              "explanation": "(-3)² = 9. Squaring a negative number always yields a positive result!"
+            },
+            {
+              "id": "l2-s1-q3",
+              "type": "graph_plot",
+              "prompt": "Plot the vertex (0,0) and 2 points on the parabola y = x².",
+              "subPrompt": "Plot (0, 0), (1, 1), and (-1, 1), then tap Check!",
+              "correctAnswer": "y = x²",
+              "explanation": "y = x² passes through (0, 0), (1, 1), and (-1, 1).",
+              "graphConfig": {
+                "equation": "y = x²",
+                "curveType": "parabola",
+                "requiredPointsCount": 3,
+                "checkEquation": true,
+                "instruction": "Plot (0,0), (1,1), and (-1,1) on y = x²",
+                "helperTable": [
+                  {
+                    "x": 0,
+                    "y": 0
+                  },
+                  {
+                    "x": 1,
+                    "y": 1
+                  },
+                  {
+                    "x": -1,
+                    "y": 1
+                  }
+                ]
+              }
+            },
+            {
+              "id": "l2-s1-q4",
+              "type": "multiple_choice",
+              "prompt": "Why is the parabola y = x² symmetric across the Y-axis?",
+              "options": [
+                "Because (-x)² = x² gives the same positive y-value",
+                "Because the slope is constant",
+                "Because it is a straight line",
+                "Because x is always positive"
+              ],
+              "correctAnswer": "Because (-x)² = x² gives the same positive y-value",
+              "explanation": "Opposite x-values produce identical y-values: (-2)² = 2² = 4."
+            },
+            {
+              "id": "l2-s1-q5",
+              "type": "numeric",
+              "prompt": "If y = x² and y = 16, what is the positive value of x?",
+              "subPrompt": "Take the square root of 16:",
+              "correctAnswer": "4",
+              "explanation": "√16 = 4 (since 4² = 16)."
+            }
+          ]
+        },
+        {
+          "id": "lvl2-set2",
+          "title": "Set 2: Vertical Shifts y = x² + c",
+          "description": "Move the parabola up and down the coordinate plane.",
+          "questions": [
+            {
+              "id": "l2-s2-q1",
+              "type": "multiple_choice",
+              "prompt": "How does the graph of y = x² + 3 differ from y = x²?",
+              "options": [
+                "Shifted UP by 3 units",
+                "Shifted DOWN by 3 units",
+                "Shifted RIGHT by 3 units",
+                "Narrower by factor of 3"
+              ],
+              "correctAnswer": "Shifted UP by 3 units",
+              "explanation": "Adding +3 to the function shifts the entire curve upward by 3 units."
+            },
+            {
+              "id": "l2-s2-q2",
+              "type": "multiple_choice",
+              "prompt": "What is the vertex of the shifted parabola y = x² - 4?",
+              "options": [
+                "(0, -4)",
+                "(0, 4)",
+                "(-4, 0)",
+                "(4, 0)"
+              ],
+              "correctAnswer": "(0, -4)",
+              "explanation": "When x = 0, y = 0² - 4 = -4. The vertex is at (0, -4)."
+            },
+            {
+              "id": "l2-s2-q3",
+              "type": "graph_plot",
+              "prompt": "Plot 3 points on the parabola y = x² - 4.",
+              "subPrompt": "Vertex is at (0, -4), and roots are at (2, 0) and (-2, 0)!",
+              "correctAnswer": "y = x² - 4",
+              "explanation": "Points (0, -4), (2, 0), and (-2, 0) lie on y = x² - 4.",
+              "graphConfig": {
+                "equation": "y = x² - 4",
+                "curveType": "parabola",
+                "requiredPointsCount": 3,
+                "checkEquation": true,
+                "instruction": "Plot (0, -4), (2, 0), (-2, 0) on y = x² - 4",
+                "helperTable": [
+                  {
+                    "x": 0,
+                    "y": -4
+                  },
+                  {
+                    "x": 2,
+                    "y": 0
+                  },
+                  {
+                    "x": -2,
+                    "y": 0
+                  }
+                ]
+              }
+            },
+            {
+              "id": "l2-s2-q4",
+              "type": "numeric",
+              "prompt": "For y = x² + 1, calculate y when x = 2:",
+              "subPrompt": "y = (2)² + 1:",
+              "correctAnswer": "5",
+              "explanation": "y = 4 + 1 = 5."
+            },
+            {
+              "id": "l2-s2-q5",
+              "type": "matching",
+              "prompt": "Match each parabola to its vertex:",
+              "correctAnswer": "matched",
+              "pairs": [
+                {
+                  "left": "y = x² + 2",
+                  "right": "(0, 2)"
+                },
+                {
+                  "left": "y = x² - 3",
+                  "right": "(0, -3)"
+                },
+                {
+                  "left": "y = x²",
+                  "right": "(0, 0)"
+                },
+                {
+                  "left": "y = x² + 5",
+                  "right": "(0, 5)"
+                }
+              ],
+              "explanation": "In y = x² + c, the vertex is always at (0, c)."
+            }
+          ]
+        },
+        {
+          "id": "lvl2-set3",
+          "title": "Set 3: Vertex Form y = a(x - h)² + k",
+          "description": "Horizontal and vertical 2D translations.",
+          "questions": [
+            {
+              "id": "l2-s3-q1",
+              "type": "multiple_choice",
+              "prompt": "Where is the vertex of the parabola y = (x - 2)² + 1?",
+              "options": [
+                "(2, 1)",
+                "(-2, 1)",
+                "(2, -1)",
+                "(-2, -1)"
+              ],
+              "correctAnswer": "(2, 1)",
+              "explanation": "In y = (x - h)² + k, h = 2 and k = 1, so vertex is (2, 1)."
+            },
+            {
+              "id": "l2-s3-q2",
+              "type": "multiple_choice",
+              "prompt": "Where is the vertex of the parabola y = (x + 3)² - 2?",
+              "options": [
+                "(-3, -2)",
+                "(3, -2)",
+                "(-3, 2)",
+                "(3, 2)"
+              ],
+              "correctAnswer": "(-3, -2)",
+              "explanation": "x + 3 = 0 => x = -3, and k = -2. The vertex is (-3, -2)."
+            },
+            {
+              "id": "l2-s3-q3",
+              "type": "graph_plot",
+              "prompt": "Plot 3 points on the parabola y = (x - 1)² - 2.",
+              "subPrompt": "Vertex is at (1, -2). Next points are (2, -1) and (0, -1).",
+              "correctAnswer": "y = (x - 1)² - 2",
+              "explanation": "At x=1, y=-2 (vertex). At x=0 and x=2, y=(-1)²-2 = -1.",
+              "graphConfig": {
+                "equation": "y = (x - 1)² - 2",
+                "curveType": "parabola",
+                "requiredPointsCount": 3,
+                "checkEquation": true,
+                "instruction": "Plot (1, -2), (2, -1), (0, -1)",
+                "helperTable": [
+                  {
+                    "x": 1,
+                    "y": -2
+                  },
+                  {
+                    "x": 2,
+                    "y": -1
+                  },
+                  {
+                    "x": 0,
+                    "y": -1
+                  }
+                ]
+              }
+            },
+            {
+              "id": "l2-s3-q4",
+              "type": "numeric",
+              "prompt": "If y = (x - 4)² + 5, what is the minimum possible y-value?",
+              "subPrompt": "Since (x - 4)² is at least 0, minimum y is k:",
+              "correctAnswer": "5",
+              "explanation": "The square term (x - 4)² is always ≥ 0. The minimum y is 5 when x = 4."
+            },
+            {
+              "id": "l2-s3-q5",
+              "type": "multiple_choice",
+              "prompt": "What does the line x = h represent in the parabola y = a(x - h)² + k?",
+              "options": [
+                "The Axis of Symmetry",
+                "The X-intercept",
+                "The horizontal asymptote",
+                "The slope line"
+              ],
+              "correctAnswer": "The Axis of Symmetry",
+              "explanation": "The vertical line passing through the vertex x = h is the Axis of Symmetry."
+            }
+          ]
+        },
+        {
+          "id": "lvl2-set4",
+          "title": "Set 4: Inverted Parabolas & Width (a)",
+          "description": "Observe negative flips and width scaling.",
+          "questions": [
+            {
+              "id": "l2-s4-q1",
+              "type": "multiple_choice",
+              "prompt": "What happens to the graph of y = -x² compared to y = x²?",
+              "options": [
+                "Reflected upside down across the X-axis",
+                "Shifted left by 1",
+                "Shifted down by 1",
+                "Becomes a straight line"
+              ],
+              "correctAnswer": "Reflected upside down across the X-axis",
+              "explanation": "The negative sign flips all positive y-values to negative: y = -x² opens downwards."
+            },
+            {
+              "id": "l2-s4-q2",
+              "type": "graph_plot",
+              "prompt": "Plot 3 points on the inverted parabola y = -x² + 4.",
+              "subPrompt": "Maximum vertex is at (0, 4)! Roots are at (-2, 0) and (2, 0).",
+              "correctAnswer": "y = -x² + 4",
+              "explanation": "At x=0, y=4. At x=±2, y=-(4)+4 = 0.",
+              "graphConfig": {
+                "equation": "y = -x² + 4",
+                "curveType": "parabola",
+                "requiredPointsCount": 3,
+                "checkEquation": true,
+                "instruction": "Plot (0, 4), (-2, 0), (2, 0) on y = -x² + 4",
+                "helperTable": [
+                  {
+                    "x": 0,
+                    "y": 4
+                  },
+                  {
+                    "x": 2,
+                    "y": 0
+                  },
+                  {
+                    "x": -2,
+                    "y": 0
+                  }
+                ]
+              }
+            },
+            {
+              "id": "l2-s4-q3",
+              "type": "multiple_choice",
+              "prompt": "Which parabola is NARROWER and climbs faster?",
+              "options": [
+                "y = 3x²",
+                "y = x²",
+                "y = 0.5x²",
+                "y = 0.2x²"
+              ],
+              "correctAnswer": "y = 3x²",
+              "explanation": "Larger |a| (here a = 3) stretches the parabola vertically, making it narrower and steeper."
+            },
+            {
+              "id": "l2-s4-q4",
+              "type": "numeric",
+              "prompt": "For y = -2x² + 8, what is the maximum value of y?",
+              "subPrompt": "The maximum occurs at x = 0:",
+              "correctAnswer": "8",
+              "explanation": "Since -2x² ≤ 0, the highest value is 8 (when x = 0)."
+            },
+            {
+              "id": "l2-s4-q5",
+              "type": "multiple_choice",
+              "prompt": "If a parabola has vertex (1, 5) and opens downwards, does it have a maximum or minimum?",
+              "options": [
+                "Maximum at y = 5",
+                "Minimum at y = 5",
+                "No vertex",
+                "Infinite minimum"
+              ],
+              "correctAnswer": "Maximum at y = 5",
+              "explanation": "Downward opening parabolas peak at their top vertex (Maximum)."
+            }
+          ]
+        },
+        {
+          "id": "lvl2-set5",
+          "title": "Set 5: 🎲 Dynamic Parabola Generator (Live Calculated)",
+          "description": "Brand new vertices, quadratic equations, and calculated solutions every time!",
+          "isDynamic": true,
+          "dynamicType": "parabola",
+          "questions": [
+            {
+              "id": "l2-s5-seed1",
+              "type": "graph_plot",
+              "prompt": "Plot 3 points on the parabola y = x² - 1.",
+              "subPrompt": "Vertex is at (0, -1). Points are (1, 0) and (-1, 0).",
+              "correctAnswer": "y = x² - 1",
+              "explanation": "Points (0, -1), (1, 0), and (-1, 0) lie on y = x² - 1.",
+              "graphConfig": {
+                "equation": "y = x² - 1",
+                "curveType": "parabola",
+                "requiredPointsCount": 3,
+                "checkEquation": true,
+                "helperTable": [
+                  {
+                    "x": 0,
+                    "y": -1
+                  },
+                  {
+                    "x": 1,
+                    "y": 0
+                  },
+                  {
+                    "x": -1,
+                    "y": 0
+                  }
+                ]
+              }
+            },
+            {
+              "id": "l2-s5-seed2",
+              "type": "multiple_choice",
+              "prompt": "What is the vertex of the parabola y = (x - 2)² + 3?",
+              "options": [
+                "(2, 3)",
+                "(-2, 3)",
+                "(2, -3)",
+                "(3, 2)"
+              ],
+              "correctAnswer": "(2, 3)",
+              "explanation": "In y = a(x - h)² + k, vertex is (h, k) = (2, 3)."
+            },
+            {
+              "id": "l2-s5-seed3",
+              "type": "multiple_choice",
+              "prompt": "Does the parabola y = 2x² - 5 open UPWARD or DOWNWARD?",
+              "options": [
+                "Opens UPWARD (has a Minimum valley)",
+                "Opens DOWNWARD (has a Maximum peak)"
+              ],
+              "correctAnswer": "Opens UPWARD (has a Minimum valley)",
+              "explanation": "Since a = 2 is positive, it opens upward."
+            },
+            {
+              "id": "l2-s5-seed4",
+              "type": "numeric",
+              "prompt": "For the parabola y = x² + 2, calculate y when x = 3:",
+              "subPrompt": "y = 3² + 2:",
+              "correctAnswer": "11",
+              "explanation": "y = 9 + 2 = 11."
+            },
+            {
+              "id": "l2-s5-seed5",
+              "type": "graph_plot",
+              "prompt": "Plot 3 points on the parabola y = (x + 1)² - 3.",
+              "subPrompt": "Vertex is at (-1, -3).",
+              "correctAnswer": "y = (x + 1)² - 3",
+              "explanation": "Points (-1, -3), (0, -2), and (-2, -2) lie on the parabola.",
+              "graphConfig": {
+                "equation": "y = (x + 1)² - 3",
+                "curveType": "parabola",
+                "requiredPointsCount": 3,
+                "checkEquation": true,
+                "helperTable": [
+                  {
+                    "x": -1,
+                    "y": -3
+                  },
+                  {
+                    "x": 0,
+                    "y": -2
+                  },
+                  {
+                    "x": -2,
+                    "y": -2
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Level 3: Absolute Value Curves (y = |x|)",
+      "topic": "V-Shapes & Piecewise Slopes",
+      "color": "#0ea5e9",
+      "darkColor": "#0284c7",
+      "accent": "#e0f2fe",
+      "iconName": "CornerDownRight",
+      "slides": [
+        {
+          "id": 1,
+          "title": "The Absolute Value Function: y = |x|",
+          "subtitle": "Turns negative distances into positive numbers, forming a sharp V.",
+          "badge": "Sharp V-Corner",
+          "visualType": "graph-absolute",
+          "keyConcept": "|x| gives the distance from zero. |-4| = +4, and |+4| = +4.",
+          "points": [
+            "For x ≥ 0: y = x (slope m = +1).",
+            "For x < 0: y = -x (slope m = -1).",
+            "They meet at the sharp corner (0, 0)."
+          ],
+          "example": {
+            "problem": "Find points for y = |x|.",
+            "solution": "x=-3 -> y=3; x=0 -> y=0; x=3 -> y=3.",
+            "note": "Unlike parabolas which curve gently, absolute value curves have straight diagonal rays!"
+          }
+        },
+        {
+          "id": 2,
+          "title": "Translating V-Curves: y = |x - h| + k",
+          "subtitle": "Move the corner anywhere on the coordinate plane.",
+          "badge": "Corner Shift",
+          "visualType": "graph-absolute",
+          "keyConcept": "The corner is located at (h, k).",
+          "points": [
+            "y = |x - 2| shifts the corner right by 2 to (2, 0).",
+            "y = |x| + 3 shifts the corner up by 3 to (0, 3).",
+            "y = -|x| flips the V upside down (like a roof ^)."
+          ],
+          "example": {
+            "problem": "Where is the corner of y = |x - 4| - 1?",
+            "solution": "h = 4, k = -1. Corner is at (4, -1).",
+            "note": "The rays still shoot out with slopes of +1 and -1 from that corner."
+          }
+        }
+      ],
+      "sets": [
+        {
+          "id": "lvl3-set1",
+          "title": "Set 1: Standard V-Shape y = |x|",
+          "description": "Plot points on the parent absolute value curve.",
+          "questions": [
+            {
+              "id": "l3-s1-q1",
+              "type": "multiple_choice",
+              "prompt": "What is the sharp corner point of the graph y = |x|?",
+              "options": [
+                "(0, 0)",
+                "(1, 1)",
+                "(0, 1)",
+                "(-1, -1)"
+              ],
+              "correctAnswer": "(0, 0)",
+              "explanation": "At x = 0, y = |0| = 0. The sharp vertex is at (0, 0)."
+            },
+            {
+              "id": "l3-s1-q2",
+              "type": "numeric",
+              "prompt": "Calculate y = |-5|:",
+              "subPrompt": "Absolute value is distance from zero:",
+              "correctAnswer": "5",
+              "explanation": "|-5| = 5."
+            },
+            {
+              "id": "l3-s1-q3",
+              "type": "graph_plot",
+              "prompt": "Plot 3 points on the V-shaped curve y = |x|.",
+              "subPrompt": "Plot corner (0, 0) and points (2, 2) and (-2, 2).",
+              "correctAnswer": "y = |x|",
+              "explanation": "y = |x| passes through (0, 0), (2, 2), and (-2, 2).",
+              "graphConfig": {
+                "equation": "y = |x|",
+                "curveType": "absolute",
+                "requiredPointsCount": 3,
+                "checkEquation": true,
+                "instruction": "Plot (0, 0), (2, 2), (-2, 2) on y = |x|",
+                "helperTable": [
+                  {
+                    "x": 0,
+                    "y": 0
+                  },
+                  {
+                    "x": 2,
+                    "y": 2
+                  },
+                  {
+                    "x": -2,
+                    "y": 2
+                  }
+                ]
+              }
+            },
+            {
+              "id": "l3-s1-q4",
+              "type": "multiple_choice",
+              "prompt": "What is the slope of the right arm of y = |x| (where x > 0)?",
+              "options": [
+                "+1",
+                "-1",
+                "0",
+                "2"
+              ],
+              "correctAnswer": "+1",
+              "explanation": "When x > 0, y = x, which has a positive slope of m = +1."
+            },
+            {
+              "id": "l3-s1-q5",
+              "type": "multiple_choice",
+              "prompt": "What is the slope of the left arm of y = |x| (where x < 0)?",
+              "options": [
+                "-1",
+                "+1",
+                "0",
+                "-2"
+              ],
+              "correctAnswer": "-1",
+              "explanation": "When x < 0, y = -x, which has a negative slope of m = -1."
+            }
+          ]
+        },
+        {
+          "id": "lvl3-set2",
+          "title": "Set 2: Shifting V-Curves y = |x - h|",
+          "description": "Slide the V-curve left and right.",
+          "questions": [
+            {
+              "id": "l3-s2-q1",
+              "type": "multiple_choice",
+              "prompt": "Where is the corner of y = |x - 3|?",
+              "options": [
+                "(3, 0)",
+                "(-3, 0)",
+                "(0, 3)",
+                "(0, -3)"
+              ],
+              "correctAnswer": "(3, 0)",
+              "explanation": "Set x - 3 = 0 => x = 3. The corner is at (3, 0)."
+            },
+            {
+              "id": "l3-s2-q2",
+              "type": "graph_plot",
+              "prompt": "Plot 3 points on the V-curve y = |x - 2|.",
+              "subPrompt": "Corner is at (2, 0). Points on arms: (4, 2) and (0, 2).",
+              "correctAnswer": "y = |x - 2|",
+              "explanation": "Points (2, 0), (4, 2), and (0, 2) lie on y = |x - 2|.",
+              "graphConfig": {
+                "equation": "y = |x - 2|",
+                "curveType": "absolute",
+                "requiredPointsCount": 3,
+                "checkEquation": true,
+                "instruction": "Plot (2, 0), (4, 2), (0, 2) on y = |x - 2|",
+                "helperTable": [
+                  {
+                    "x": 2,
+                    "y": 0
+                  },
+                  {
+                    "x": 4,
+                    "y": 2
+                  },
+                  {
+                    "x": 0,
+                    "y": 2
+                  }
+                ]
+              }
+            },
+            {
+              "id": "l3-s2-q3",
+              "type": "numeric",
+              "prompt": "For y = |x + 1|, calculate y when x = -4:",
+              "subPrompt": "y = |-4 + 1| = |-3|:",
+              "correctAnswer": "3",
+              "explanation": "y = |-4 + 1| = |-3| = 3."
+            },
+            {
+              "id": "l3-s2-q4",
+              "type": "multiple_choice",
+              "prompt": "Which equation represents a V-curve with its corner at (-5, 0)?",
+              "options": [
+                "y = |x + 5|",
+                "y = |x - 5|",
+                "y = |x| - 5",
+                "y = |x| + 5"
+              ],
+              "correctAnswer": "y = |x + 5|",
+              "explanation": "x + 5 = 0 gives x = -5, so y = |x + 5| has its corner at (-5, 0)."
+            },
+            {
+              "id": "l3-s2-q5",
+              "type": "matching",
+              "prompt": "Match each V-curve to its corner coordinate:",
+              "correctAnswer": "matched",
+              "pairs": [
+                {
+                  "left": "y = |x - 1|",
+                  "right": "Corner (1, 0)"
+                },
+                {
+                  "left": "y = |x + 2|",
+                  "right": "Corner (-2, 0)"
+                },
+                {
+                  "left": "y = |x| + 4",
+                  "right": "Corner (0, 4)"
+                },
+                {
+                  "left": "y = |x| - 3",
+                  "right": "Corner (0, -3)"
+                }
+              ],
+              "explanation": "Horizontal shifts are inside |x - h|, vertical shifts are outside + k."
+            }
+          ]
+        },
+        {
+          "id": "lvl3-set3",
+          "title": "Set 3: Full 2D Shifts y = |x - h| + k",
+          "description": "Combine horizontal and vertical shifts.",
+          "questions": [
+            {
+              "id": "l3-s3-q1",
+              "type": "multiple_choice",
+              "prompt": "What is the corner of the curve y = |x - 2| + 3?",
+              "options": [
+                "(2, 3)",
+                "(-2, 3)",
+                "(2, -3)",
+                "(-2, -3)"
+              ],
+              "correctAnswer": "(2, 3)",
+              "explanation": "Corner is (h, k) = (2, 3)."
+            },
+            {
+              "id": "l3-s3-q2",
+              "type": "graph_plot",
+              "prompt": "Plot 3 points on the curve y = |x - 1| - 2.",
+              "subPrompt": "Corner is at (1, -2). Next points are (3, 0) and (-1, 0).",
+              "correctAnswer": "y = |x - 1| - 2",
+              "explanation": "Corner is (1, -2). Roots are (3, 0) and (-1, 0).",
+              "graphConfig": {
+                "equation": "y = |x - 1| - 2",
+                "curveType": "absolute",
+                "requiredPointsCount": 3,
+                "checkEquation": true,
+                "instruction": "Plot (1, -2), (3, 0), (-1, 0)",
+                "helperTable": [
+                  {
+                    "x": 1,
+                    "y": -2
+                  },
+                  {
+                    "x": 3,
+                    "y": 0
+                  },
+                  {
+                    "x": -1,
+                    "y": 0
+                  }
+                ]
+              }
+            },
+            {
+              "id": "l3-s3-q3",
+              "type": "numeric",
+              "prompt": "What is the lowest possible y-value for y = |x + 7| - 4?",
+              "subPrompt": "The minimum occurs at the corner where |x + 7| = 0:",
+              "correctAnswer": "-4",
+              "explanation": "Since |x + 7| ≥ 0, the minimum value is -4."
+            },
+            {
+              "id": "l3-s3-q4",
+              "type": "multiple_choice",
+              "prompt": "What is the shape of the graph y = -|x|?",
+              "options": [
+                "An upside-down V shape (^)",
+                "A normal upward V shape",
+                "A circle",
+                "A horizontal line"
+              ],
+              "correctAnswer": "An upside-down V shape (^)",
+              "explanation": "The negative sign reflects the V-shape downward."
+            },
+            {
+              "id": "l3-s3-q5",
+              "type": "numeric",
+              "prompt": "For y = -|x - 2| + 5, what is the maximum value of y?",
+              "subPrompt": "Maximum occurs at the peak corner x = 2:",
+              "correctAnswer": "5",
+              "explanation": "At x = 2, y = -|0| + 5 = 5 (peak maximum)."
+            }
+          ]
+        },
+        {
+          "id": "lvl3-set4",
+          "title": "Set 4: Solving with V-Curves",
+          "description": "Find intersections and evaluate distances.",
+          "questions": [
+            {
+              "id": "l3-s4-q1",
+              "type": "multiple_choice",
+              "prompt": "How many points does the line y = 3 intersect with y = |x|?",
+              "options": [
+                "2 points: (-3, 3) and (3, 3)",
+                "1 point only",
+                "0 points",
+                "Infinite points"
+              ],
+              "correctAnswer": "2 points: (-3, 3) and (3, 3)",
+              "explanation": "|x| = 3 has two solutions: x = 3 and x = -3."
+            },
+            {
+              "id": "l3-s4-q2",
+              "type": "graph_plot",
+              "prompt": "Plot 3 points on the inverted V-curve y = -|x| + 3.",
+              "subPrompt": "Peak corner is at (0, 3). Arms hit (3, 0) and (-3, 0).",
+              "correctAnswer": "y = -|x| + 3",
+              "explanation": "Points (0, 3), (3, 0), and (-3, 0) lie on y = -|x| + 3.",
+              "graphConfig": {
+                "equation": "y = -|x| + 3",
+                "curveType": "absolute",
+                "requiredPointsCount": 3,
+                "checkEquation": true,
+                "instruction": "Plot (0, 3), (3, 0), (-3, 0)",
+                "helperTable": [
+                  {
+                    "x": 0,
+                    "y": 3
+                  },
+                  {
+                    "x": 3,
+                    "y": 0
+                  },
+                  {
+                    "x": -3,
+                    "y": 0
+                  }
+                ]
+              }
+            },
+            {
+              "id": "l3-s4-q3",
+              "type": "numeric",
+              "prompt": "If |x - 2| = 4 and x is positive, what is x?",
+              "subPrompt": "x - 2 = 4 => x = ?",
+              "correctAnswer": "6",
+              "explanation": "x = 4 + 2 = 6 (and the negative branch is x = -2)."
+            },
+            {
+              "id": "l3-s4-q4",
+              "type": "multiple_choice",
+              "prompt": "Does the graph of y = |x| ever go below the X-axis?",
+              "options": [
+                "No, absolute values are always non-negative (y ≥ 0)",
+                "Yes, for negative x values",
+                "Yes, at the origin",
+                "It oscillates"
+              ],
+              "correctAnswer": "No, absolute values are always non-negative (y ≥ 0)",
+              "explanation": "Absolute value represents distance, which cannot be negative."
+            },
+            {
+              "id": "l3-s4-q5",
+              "type": "numeric",
+              "prompt": "Calculate y = |3 - 8| + 2:",
+              "subPrompt": "|-5| + 2 = ?",
+              "correctAnswer": "7",
+              "explanation": "|3 - 8| = |-5| = 5. Then 5 + 2 = 7."
+            }
+          ]
+        },
+        {
+          "id": "lvl3-set5",
+          "title": "Set 5: 🎲 Dynamic Absolute Value Generator",
+          "description": "Randomized V-curves, corner coordinates, and piecewise evaluation live!",
+          "isDynamic": true,
+          "dynamicType": "absolute",
+          "questions": [
+            {
+              "id": "l3-s5-seed1",
+              "type": "graph_plot",
+              "prompt": "Plot 3 points on the V-curve y = |x - 1|.",
+              "subPrompt": "Corner is at (1, 0). Next points are (3, 2) and (-1, 2).",
+              "correctAnswer": "y = |x - 1|",
+              "explanation": "Points (1, 0), (3, 2), and (-1, 2) satisfy y = |x - 1|.",
+              "graphConfig": {
+                "equation": "y = |x - 1|",
+                "curveType": "absolute",
+                "requiredPointsCount": 3,
+                "checkEquation": true,
+                "helperTable": [
+                  {
+                    "x": 1,
+                    "y": 0
+                  },
+                  {
+                    "x": 3,
+                    "y": 2
+                  },
+                  {
+                    "x": -1,
+                    "y": 2
+                  }
+                ]
+              }
+            },
+            {
+              "id": "l3-s5-seed2",
+              "type": "multiple_choice",
+              "prompt": "Where is the corner of the curve y = |x + 4| - 2?",
+              "options": [
+                "(-4, -2)",
+                "(4, -2)",
+                "(-4, 2)",
+                "(4, 2)"
+              ],
+              "correctAnswer": "(-4, -2)",
+              "explanation": "Inside x + 4 = 0 => x = -4, and outside k = -2."
+            },
+            {
+              "id": "l3-s5-seed3",
+              "type": "numeric",
+              "prompt": "For y = |x - 3| + 1, calculate y when x = -2:",
+              "subPrompt": "y = |-2 - 3| + 1:",
+              "correctAnswer": "6",
+              "explanation": "|-5| + 1 = 5 + 1 = 6."
+            },
+            {
+              "id": "l3-s5-seed4",
+              "type": "multiple_choice",
+              "prompt": "What is the slope of the right arm for y = |x - 5|?",
+              "options": [
+                "+1",
+                "-1",
+                "5",
+                "-5"
+              ],
+              "correctAnswer": "+1",
+              "explanation": "Standard absolute value functions have slope +1 on the right arm."
+            },
+            {
+              "id": "l3-s5-seed5",
+              "type": "graph_plot",
+              "prompt": "Plot 3 points on the curve y = |x| - 3.",
+              "subPrompt": "Corner is at (0, -3).",
+              "correctAnswer": "y = |x| - 3",
+              "explanation": "Points (0, -3), (2, -1), and (-2, -1) lie on y = |x| - 3.",
+              "graphConfig": {
+                "equation": "y = |x| - 3",
+                "curveType": "absolute",
+                "requiredPointsCount": 3,
+                "checkEquation": true,
+                "helperTable": [
+                  {
+                    "x": 0,
+                    "y": -3
+                  },
+                  {
+                    "x": 2,
+                    "y": -1
+                  },
+                  {
+                    "x": -2,
+                    "y": -1
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Level 4: Cubics & Hyperbolas (y = x³ & y = 1/x)",
+      "topic": "S-Curves & Asymptotes",
+      "color": "#a855f7",
+      "darkColor": "#9333ea",
+      "accent": "#f3e8ff",
+      "iconName": "Compass",
+      "slides": [
+        {
+          "id": 1,
+          "title": "The Cubic S-Curve: y = x³",
+          "subtitle": "Odd powers preserve negative signs: (-2)³ = -8!",
+          "badge": "Inflection Point",
+          "visualType": "graph-cubic",
+          "keyConcept": "The curve snakes across the Origin: negative on the left, positive on the right.",
+          "points": [
+            "Point of inflection at (0, 0) where the curvature twists.",
+            "Rotational 180° symmetry: f(-x) = -f(x).",
+            "Climbs much faster than a parabola for large values of x."
+          ],
+          "example": {
+            "problem": "Find points on y = x³.",
+            "solution": "x=-2 -> y=-8; x=-1 -> y=-1; x=0 -> y=0; x=1 -> y=1; x=2 -> y=8.",
+            "note": "Notice that (-1)³ = -1 while (+1)³ = +1."
+          }
+        },
+        {
+          "id": 2,
+          "title": "The Rectangular Hyperbola: y = 1/x",
+          "subtitle": "Inverse proportion creates twin curves split by asymptotes.",
+          "badge": "Asymptotes",
+          "visualType": "graph-cubic",
+          "keyConcept": "You can NEVER divide by zero! x = 0 is a vertical asymptote.",
+          "points": [
+            "As x gets very large, y approaches 0 (horizontal asymptote y = 0).",
+            "As x gets close to 0, y shoots up to infinity!",
+            "Curve lives in Quadrant I (+, +) and Quadrant III (-, -)."
+          ],
+          "example": {
+            "problem": "Calculate y = 1/x for x = 0.5 and x = 2.",
+            "solution": "x = 0.5 -> y = 2. x = 2 -> y = 0.5.",
+            "note": "The curve gets closer and closer to the axes but NEVER touches them."
+          }
+        }
+      ],
+      "sets": [
+        {
+          "id": "lvl4-set1",
+          "title": "Set 1: Plotting the Cubic S-Curve y = x³",
+          "description": "Trace odd power curves through the origin.",
+          "questions": [
+            {
+              "id": "l4-s1-q1",
+              "type": "multiple_choice",
+              "prompt": "What is the inflection point (twist center) of y = x³?",
+              "options": [
+                "(0, 0)",
+                "(1, 1)",
+                "(0, 1)",
+                "(2, 8)"
+              ],
+              "correctAnswer": "(0, 0)",
+              "explanation": "The curve twists and changes concavity at the origin (0, 0)."
+            },
+            {
+              "id": "l4-s1-q2",
+              "type": "numeric",
+              "prompt": "Calculate y = (-2)³:",
+              "subPrompt": "(-2) × (-2) × (-2):",
+              "correctAnswer": "-8",
+              "explanation": "(-2) × (-2) × (-2) = -8."
+            },
+            {
+              "id": "l4-s1-q3",
+              "type": "graph_plot",
+              "prompt": "Plot 3 points on the cubic curve y = x³.",
+              "subPrompt": "Plot (-1, -1), (0, 0), and (1, 1).",
+              "correctAnswer": "y = x³",
+              "explanation": "y = x³ passes through (-1, -1), (0, 0), and (1, 1).",
+              "graphConfig": {
+                "equation": "y = x³",
+                "curveType": "cubic",
+                "requiredPointsCount": 3,
+                "checkEquation": true,
+                "instruction": "Plot (-1, -1), (0, 0), (1, 1) on y = x³",
+                "helperTable": [
+                  {
+                    "x": -1,
+                    "y": -1
+                  },
+                  {
+                    "x": 0,
+                    "y": 0
+                  },
+                  {
+                    "x": 1,
+                    "y": 1
+                  }
+                ]
+              }
+            },
+            {
+              "id": "l4-s1-q4",
+              "type": "multiple_choice",
+              "prompt": "Why does y = x³ enter Quadrant III (negative x and negative y)?",
+              "options": [
+                "Because odd powers preserve negative signs",
+                "Because of the slope",
+                "Because x is always positive",
+                "It never enters Quadrant III"
+              ],
+              "correctAnswer": "Because odd powers preserve negative signs",
+              "explanation": "(-x)³ = -x³, so negative inputs produce negative outputs."
+            },
+            {
+              "id": "l4-s1-q5",
+              "type": "numeric",
+              "prompt": "If y = x³ and y = 27, what is x?",
+              "subPrompt": "Cube root of 27:",
+              "correctAnswer": "3",
+              "explanation": "3³ = 3 × 3 × 3 = 27."
+            }
+          ]
+        },
+        {
+          "id": "lvl4-set2",
+          "title": "Set 2: Cubic Shifts y = x³ + c",
+          "description": "Translate S-curves vertically.",
+          "questions": [
+            {
+              "id": "l4-s2-q1",
+              "type": "multiple_choice",
+              "prompt": "Where is the inflection point of y = x³ + 2?",
+              "options": [
+                "(0, 2)",
+                "(0, -2)",
+                "(2, 0)",
+                "(0, 0)"
+              ],
+              "correctAnswer": "(0, 2)",
+              "explanation": "Adding +2 shifts the inflection point up to (0, 2)."
+            },
+            {
+              "id": "l4-s2-q2",
+              "type": "graph_plot",
+              "prompt": "Plot 3 points on the shifted cubic curve y = x³ - 1.",
+              "subPrompt": "Inflection point is at (0, -1). Next points are (1, 0) and (-1, -2).",
+              "correctAnswer": "y = x³ - 1",
+              "explanation": "Points (0, -1), (1, 0), and (-1, -2) lie on y = x³ - 1.",
+              "graphConfig": {
+                "equation": "y = x³ - 1",
+                "curveType": "cubic",
+                "requiredPointsCount": 3,
+                "checkEquation": true,
+                "instruction": "Plot (0, -1), (1, 0), (-1, -2)",
+                "helperTable": [
+                  {
+                    "x": 0,
+                    "y": -1
+                  },
+                  {
+                    "x": 1,
+                    "y": 0
+                  },
+                  {
+                    "x": -1,
+                    "y": -2
+                  }
+                ]
+              }
+            },
+            {
+              "id": "l4-s2-q3",
+              "type": "numeric",
+              "prompt": "For y = x³ + 5, calculate y when x = 2:",
+              "subPrompt": "y = (2)³ + 5 = 8 + 5:",
+              "correctAnswer": "13",
+              "explanation": "8 + 5 = 13."
+            },
+            {
+              "id": "l4-s2-q4",
+              "type": "multiple_choice",
+              "prompt": "What does the graph of y = -x³ look like compared to y = x³?",
+              "options": [
+                "Reversed: climbs from top-left to bottom-right",
+                "A flat line",
+                "A circle",
+                "Identical"
+              ],
+              "correctAnswer": "Reversed: climbs from top-left to bottom-right",
+              "explanation": "The negative sign flips the S-curve horizontally across the axis."
+            },
+            {
+              "id": "l4-s2-q5",
+              "type": "numeric",
+              "prompt": "For y = x³ - 8, find the X-intercept (where y = 0):",
+              "subPrompt": "x³ = 8 => x = ?",
+              "correctAnswer": "2",
+              "explanation": "2³ = 8, so x = 2."
+            }
+          ]
+        },
+        {
+          "id": "lvl4-set3",
+          "title": "Set 3: The Hyperbola y = 1/x",
+          "description": "Explore reciprocal functions and split branches.",
+          "questions": [
+            {
+              "id": "l4-s3-q1",
+              "type": "multiple_choice",
+              "prompt": "Why can x never equal 0 in the function y = 1/x?",
+              "options": [
+                "Division by zero is undefined",
+                "1/0 equals 0",
+                "x must be positive",
+                "The curve disappears"
+              ],
+              "correctAnswer": "Division by zero is undefined",
+              "explanation": "Division by zero is mathematically undefined, creating a vertical asymptote at x = 0."
+            },
+            {
+              "id": "l4-s3-q2",
+              "type": "numeric",
+              "prompt": "If y = 1/x, what is the value of y when x = 1?",
+              "subPrompt": "1 / 1 = ?",
+              "correctAnswer": "1",
+              "explanation": "1 / 1 = 1. Point (1, 1) lies on the curve."
+            },
+            {
+              "id": "l4-s3-q3",
+              "type": "multiple_choice",
+              "prompt": "In which two quadrants does the curve y = 1/x exist?",
+              "options": [
+                "Quadrant I (+, +) and Quadrant III (-, -)",
+                "Quadrant II and Quadrant IV",
+                "Quadrant I and Quadrant II",
+                "Quadrant III and Quadrant IV"
+              ],
+              "correctAnswer": "Quadrant I (+, +) and Quadrant III (-, -)",
+              "explanation": "Positive x gives positive y (Quadrant I); negative x gives negative y (Quadrant III)."
+            },
+            {
+              "id": "l4-s3-q4",
+              "type": "numeric",
+              "prompt": "For y = 1/x, what is y when x = -1?",
+              "subPrompt": "1 / (-1) = ?",
+              "correctAnswer": "-1",
+              "explanation": "1 / -1 = -1. Point (-1, -1) lies on the curve."
+            },
+            {
+              "id": "l4-s3-q5",
+              "type": "matching",
+              "prompt": "Match x to its corresponding y in y = 1/x:",
+              "correctAnswer": "matched",
+              "pairs": [
+                {
+                  "left": "x = 2",
+                  "right": "y = 0.5"
+                },
+                {
+                  "left": "x = 0.5",
+                  "right": "y = 2"
+                },
+                {
+                  "left": "x = 4",
+                  "right": "y = 0.25"
+                },
+                {
+                  "left": "x = -2",
+                  "right": "y = -0.5"
+                }
+              ],
+              "explanation": "Inverse relationship: as x doubles, y halves!"
+            }
+          ]
+        },
+        {
+          "id": "lvl4-set4",
+          "title": "Set 4: Asymptotes: The Forbidden Boundaries",
+          "description": "Analyze horizontal and vertical asymptotes.",
+          "questions": [
+            {
+              "id": "l4-s4-q1",
+              "type": "multiple_choice",
+              "prompt": "What is an asymptote?",
+              "options": [
+                "A line that a curve approaches closer and closer but never touches",
+                "The highest point of a curve",
+                "The Y-intercept",
+                "A tangent line"
+              ],
+              "correctAnswer": "A line that a curve approaches closer and closer but never touches",
+              "explanation": "An asymptote acts as a boundary line that the curve gets infinitely close to."
+            },
+            {
+              "id": "l4-s4-q2",
+              "type": "multiple_choice",
+              "prompt": "What is the horizontal asymptote of y = 1/x?",
+              "options": [
+                "y = 0 (X-axis)",
+                "x = 0 (Y-axis)",
+                "y = 1",
+                "y = -1"
+              ],
+              "correctAnswer": "y = 0 (X-axis)",
+              "explanation": "As x -> ±∞, 1/x -> 0. The curve flattens towards y = 0."
+            },
+            {
+              "id": "l4-s4-q3",
+              "type": "multiple_choice",
+              "prompt": "What is the vertical asymptote of y = 1/x?",
+              "options": [
+                "x = 0 (Y-axis)",
+                "y = 0 (X-axis)",
+                "x = 1",
+                "x = -1"
+              ],
+              "correctAnswer": "x = 0 (Y-axis)",
+              "explanation": "Because division by zero is forbidden, x = 0 is the vertical boundary."
+            },
+            {
+              "id": "l4-s4-q4",
+              "type": "numeric",
+              "prompt": "For the hyperbola y = 2/x, what is y when x = 2?",
+              "subPrompt": "2 / 2 = ?",
+              "correctAnswer": "1",
+              "explanation": "2 / 2 = 1. Point (2, 1) lies on y = 2/x."
+            },
+            {
+              "id": "l4-s4-q5",
+              "type": "multiple_choice",
+              "prompt": "What happens to y in y = 1/x as x approaches very close to 0 from the positive side (e.g. 0.001)?",
+              "options": [
+                "Shoots up towards positive infinity (+∞)",
+                "Approaches 0",
+                "Becomes negative",
+                "Stays at 1"
+              ],
+              "correctAnswer": "Shoots up towards positive infinity (+∞)",
+              "explanation": "1 / 0.001 = 1000! Dividing by tiny positive fractions produces enormous values."
+            }
+          ]
+        },
+        {
+          "id": "lvl4-set5",
+          "title": "Set 5: 🎲 Dynamic S-Curve & Hyperbola Generator",
+          "description": "Live calculated cubic evaluations and reciprocal values!",
+          "isDynamic": true,
+          "dynamicType": "cubic_hyperbola",
+          "questions": [
+            {
+              "id": "l4-s5-seed1",
+              "type": "numeric",
+              "prompt": "For the cubic curve y = x³, calculate y when x = -1:",
+              "subPrompt": "(-1)³ = ?",
+              "correctAnswer": "-1",
+              "explanation": "(-1) × (-1) × (-1) = -1."
+            },
+            {
+              "id": "l4-s5-seed2",
+              "type": "numeric",
+              "prompt": "For y = 1/x, what is y when x = 4?",
+              "subPrompt": "Enter decimal (e.g. 0.25):",
+              "correctAnswer": "0.25",
+              "explanation": "1 / 4 = 0.25."
+            },
+            {
+              "id": "l4-s5-seed3",
+              "type": "multiple_choice",
+              "prompt": "What is the inflection point of y = x³ - 3?",
+              "options": [
+                "(0, -3)",
+                "(0, 3)",
+                "(-3, 0)",
+                "(0, 0)"
+              ],
+              "correctAnswer": "(0, -3)",
+              "explanation": "The inflection center is shifted down to (0, -3)."
+            },
+            {
+              "id": "l4-s5-seed4",
+              "type": "numeric",
+              "prompt": "Calculate y = 2³ + 1:",
+              "subPrompt": "8 + 1 = ?",
+              "correctAnswer": "9",
+              "explanation": "8 + 1 = 9."
+            },
+            {
+              "id": "l4-s5-seed5",
+              "type": "multiple_choice",
+              "prompt": "Which line does the hyperbola y = 1/x never touch?",
+              "options": [
+                "Both x = 0 and y = 0",
+                "Only x = 1",
+                "Only y = 1",
+                "x = y"
+              ],
+              "correctAnswer": "Both x = 0 and y = 0",
+              "explanation": "The coordinate axes x = 0 and y = 0 are both asymptotes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Level 5: Periodic Waves (y = sin x & cos x)",
+      "topic": "Oscillations, Amplitudes & Crests",
+      "color": "#f59e0b",
+      "darkColor": "#d97706",
+      "accent": "#fef3c7",
+      "iconName": "Activity",
+      "slides": [
+        {
+          "id": 1,
+          "title": "The Sine Wave: Repeating Cycles",
+          "subtitle": "Smooth oscillation up and down like sound, ocean, and light waves.",
+          "badge": "Wave Anatomy",
+          "visualType": "graph-wave",
+          "keyConcept": "Standard wave y = A·sin(x). Oscillates between +A (Crest) and -A (Trough).",
+          "points": [
+            "Amplitude (A): The height from the center midline to the highest peak.",
+            "Period (T): The horizontal length required to complete one full cycle (2π ≈ 6.28 radians).",
+            "Starts at the Origin (0, 0), climbs to peak (+A), drops through zero to valley (-A)."
+          ],
+          "example": {
+            "problem": "What are the key points of y = sin(x)?",
+            "solution": "x=0 -> y=0; x=π/2 -> y=1; x=π -> y=0; x=3π/2 -> y=-1; x=2π -> y=0.",
+            "note": "It repeats this exact smooth cycle infinitely in both directions!"
+          }
+        },
+        {
+          "id": 2,
+          "title": "Amplitude Scaling: y = A·sin(x)",
+          "subtitle": "Taller waves have higher energy and sound louder!",
+          "badge": "Amplitude",
+          "visualType": "graph-wave",
+          "keyConcept": "The number in front of sin(x) controls wave height: y = 3sin(x) reaches +3 and -3.",
+          "points": [
+            "Midline is at y = 0 (unless shifted by adding + D).",
+            "Peak crest = Midline + Amplitude.",
+            "Bottom trough = Midline - Amplitude."
+          ],
+          "example": {
+            "problem": "Find the amplitude and range of y = 4sin(x).",
+            "solution": "Amplitude A = 4. Wave oscillates between -4 and +4.",
+            "note": "Amplitude is always positive: |A|."
+          }
+        }
+      ],
+      "sets": [
+        {
+          "id": "lvl5-set1",
+          "title": "Set 1: Anatomy of a Sine Wave",
+          "description": "Identify crests, troughs, and midlines.",
+          "questions": [
+            {
+              "id": "l5-s1-q1",
+              "type": "multiple_choice",
+              "prompt": "What is the maximum peak (crest) height of the standard wave y = sin(x)?",
+              "options": [
+                "+1",
+                "+2",
+                "0",
+                "+π"
+              ],
+              "correctAnswer": "+1",
+              "explanation": "The standard sine function has a maximum value of +1."
+            },
+            {
+              "id": "l5-s1-q2",
+              "type": "multiple_choice",
+              "prompt": "What is the minimum valley (trough) of y = sin(x)?",
+              "options": [
+                "-1",
+                "0",
+                "-2",
+                "-π"
+              ],
+              "correctAnswer": "-1",
+              "explanation": "The standard sine function reaches its lowest point at -1."
+            },
+            {
+              "id": "l5-s1-q3",
+              "type": "numeric",
+              "prompt": "What is sin(0)?",
+              "subPrompt": "The sine wave passes through the origin:",
+              "correctAnswer": "0",
+              "explanation": "sin(0) = 0. The sine wave begins at the origin (0, 0)."
+            },
+            {
+              "id": "l5-s1-q4",
+              "type": "multiple_choice",
+              "prompt": "What is the horizontal centerline about which a wave oscillates called?",
+              "options": [
+                "Midline",
+                "Crest",
+                "Asymptote",
+                "Intercept"
+              ],
+              "correctAnswer": "Midline",
+              "explanation": "The midline is the horizontal average axis (y = 0 for standard waves)."
+            },
+            {
+              "id": "l5-s1-q5",
+              "type": "matching",
+              "prompt": "Match the wave part to its definition:",
+              "correctAnswer": "matched",
+              "pairs": [
+                {
+                  "left": "Crest",
+                  "right": "Highest peak of the wave"
+                },
+                {
+                  "left": "Trough",
+                  "right": "Lowest valley of the wave"
+                },
+                {
+                  "left": "Amplitude",
+                  "right": "Height from midline to peak"
+                },
+                {
+                  "left": "Period",
+                  "right": "Horizontal length of 1 cycle"
+                }
+              ],
+              "explanation": "These 4 components completely define periodic wave graphs."
+            }
+          ]
+        },
+        {
+          "id": "lvl5-set2",
+          "title": "Set 2: Amplitude Transformations y = A·sin(x)",
+          "description": "Scale wave heights.",
+          "questions": [
+            {
+              "id": "l5-s2-q1",
+              "type": "multiple_choice",
+              "prompt": "What is the amplitude of the wave y = 5sin(x)?",
+              "options": [
+                "5",
+                "10",
+                "1",
+                "2.5"
+              ],
+              "correctAnswer": "5",
+              "explanation": "In y = A·sin(x), amplitude is |A| = 5."
+            },
+            {
+              "id": "l5-s2-q2",
+              "type": "numeric",
+              "prompt": "What is the peak crest value of the wave y = 3sin(x)?",
+              "subPrompt": "The wave oscillates between -3 and +3:",
+              "correctAnswer": "3",
+              "explanation": "Peak value is +3."
+            },
+            {
+              "id": "l5-s2-q3",
+              "type": "numeric",
+              "prompt": "What is the trough value of the wave y = 2sin(x)?",
+              "subPrompt": "Enter negative integer (e.g. -2):",
+              "correctAnswer": "-2",
+              "explanation": "Trough is at -2."
+            },
+            {
+              "id": "l5-s2-q4",
+              "type": "multiple_choice",
+              "prompt": "What is the total peak-to-peak height (from trough to crest) of y = 4sin(x)?",
+              "options": [
+                "8 (from -4 to +4)",
+                "4",
+                "2",
+                "16"
+              ],
+              "correctAnswer": "8 (from -4 to +4)",
+              "explanation": "Peak-to-peak distance = 2 × Amplitude = 2 × 4 = 8."
+            },
+            {
+              "id": "l5-s2-q5",
+              "type": "multiple_choice",
+              "prompt": "If y = -sin(x), how does it start compared to y = sin(x)?",
+              "options": [
+                "Drops downward first to -1 instead of rising to +1",
+                "It is identical",
+                "It becomes flat",
+                "It shifts right"
+              ],
+              "correctAnswer": "Drops downward first to -1 instead of rising to +1",
+              "explanation": "The negative sign flips the wave vertically, starting with a trough."
+            }
+          ]
+        },
+        {
+          "id": "lvl5-set3",
+          "title": "Set 3: Sine vs Cosine Phase Shifts",
+          "description": "Compare y = sin(x) and y = cos(x).",
+          "questions": [
+            {
+              "id": "l5-s3-q1",
+              "type": "multiple_choice",
+              "prompt": "Where does y = cos(x) cross the Y-axis when x = 0?",
+              "options": [
+                "(0, 1) at its crest peak",
+                "(0, 0) at origin",
+                "(0, -1)",
+                "(0, 2)"
+              ],
+              "correctAnswer": "(0, 1) at its crest peak",
+              "explanation": "cos(0) = 1, so the cosine wave starts right at its peak crest!"
+            },
+            {
+              "id": "l5-s3-q2",
+              "type": "numeric",
+              "prompt": "What is cos(0)?",
+              "subPrompt": "Enter integer:",
+              "correctAnswer": "1",
+              "explanation": "cos(0) = 1."
+            },
+            {
+              "id": "l5-s3-q3",
+              "type": "multiple_choice",
+              "prompt": "How are sine and cosine related?",
+              "options": [
+                "Cosine is identical to sine shifted by a quarter cycle (π/2)",
+                "They have different amplitudes",
+                "Cosine is a straight line",
+                "They are opposites"
+              ],
+              "correctAnswer": "Cosine is identical to sine shifted by a quarter cycle (π/2)",
+              "explanation": "cos(x) = sin(x + π/2). A 90° (π/2) phase shift converts sine into cosine."
+            },
+            {
+              "id": "l5-s3-q4",
+              "type": "numeric",
+              "prompt": "What is the amplitude of the cosine wave y = 6cos(x)?",
+              "subPrompt": "The leading coefficient is 6:",
+              "correctAnswer": "6",
+              "explanation": "Amplitude |A| = 6."
+            },
+            {
+              "id": "l5-s3-q5",
+              "type": "matching",
+              "prompt": "Match function to its starting point at x = 0:",
+              "correctAnswer": "matched",
+              "pairs": [
+                {
+                  "left": "y = sin(x)",
+                  "right": "Starts at (0, 0) on midline"
+                },
+                {
+                  "left": "y = cos(x)",
+                  "right": "Starts at (0, 1) on top crest"
+                },
+                {
+                  "left": "y = -cos(x)",
+                  "right": "Starts at (0, -1) on bottom trough"
+                },
+                {
+                  "left": "y = 3sin(x)",
+                  "right": "Starts at (0, 0)"
+                }
+              ],
+              "explanation": "Sine starts on the midline; cosine starts at its peak crest."
+            }
+          ]
+        },
+        {
+          "id": "lvl5-set4",
+          "title": "Set 4: Midline Vertical Shifts y = sin(x) + D",
+          "description": "Elevate and drop wave midlines.",
+          "questions": [
+            {
+              "id": "l5-s4-q1",
+              "type": "multiple_choice",
+              "prompt": "Where is the midline of the wave y = sin(x) + 3?",
+              "options": [
+                "y = 3",
+                "y = 0",
+                "y = 1",
+                "y = 4"
+              ],
+              "correctAnswer": "y = 3",
+              "explanation": "Adding +3 shifts the center midline up to y = 3."
+            },
+            {
+              "id": "l5-s4-q2",
+              "type": "numeric",
+              "prompt": "For y = sin(x) + 3, what is the maximum crest value?",
+              "subPrompt": "Midline (3) + Amplitude (1) = ?",
+              "correctAnswer": "4",
+              "explanation": "Maximum = 3 + 1 = 4."
+            },
+            {
+              "id": "l5-s4-q3",
+              "type": "numeric",
+              "prompt": "For y = sin(x) + 3, what is the minimum trough value?",
+              "subPrompt": "Midline (3) - Amplitude (1) = ?",
+              "correctAnswer": "2",
+              "explanation": "Minimum = 3 - 1 = 2."
+            },
+            {
+              "id": "l5-s4-q4",
+              "type": "multiple_choice",
+              "prompt": "Which equation has a midline at y = -2 and amplitude 3?",
+              "options": [
+                "y = 3sin(x) - 2",
+                "y = 2sin(x) - 3",
+                "y = -2sin(x) + 3",
+                "y = sin(x) - 5"
+              ],
+              "correctAnswer": "y = 3sin(x) - 2",
+              "explanation": "In y = A·sin(x) + D, A = 3 (amplitude) and D = -2 (midline)."
+            },
+            {
+              "id": "l5-s4-q5",
+              "type": "numeric",
+              "prompt": "For y = 2cos(x) + 1, calculate y when x = 0:",
+              "subPrompt": "cos(0) = 1, so 2(1) + 1 = ?",
+              "correctAnswer": "3",
+              "explanation": "y = 2(1) + 1 = 3."
+            }
+          ]
+        },
+        {
+          "id": "lvl5-set5",
+          "title": "Set 5: 🎲 Infinite Standard Curves Master Challenge",
+          "description": "Randomized questions across all standard curves (Linear, Quadratic, Absolute Value, Cubics & Waves) calculated live every time!",
+          "isDynamic": true,
+          "dynamicType": "all",
+          "questions": [
+            {
+              "id": "l5-s5-seed1",
+              "type": "numeric",
+              "prompt": "What is the amplitude of the wave y = 4sin(x)?",
+              "subPrompt": "Amplitude is the coefficient of sin(x):",
+              "correctAnswer": "4",
+              "explanation": "Amplitude is |4| = 4."
+            },
+            {
+              "id": "l5-s5-seed2",
+              "type": "multiple_choice",
+              "prompt": "What is the vertex of the parabola y = (x - 3)² + 2?",
+              "options": [
+                "(3, 2)",
+                "(-3, 2)",
+                "(3, -2)",
+                "(2, 3)"
+              ],
+              "correctAnswer": "(3, 2)",
+              "explanation": "In y = a(x - h)² + k, vertex is (h, k) = (3, 2)."
+            },
+            {
+              "id": "l5-s5-seed3",
+              "type": "graph_plot",
+              "prompt": "Plot 2 points on the line y = 2x + 1.",
+              "subPrompt": "When x=0, y=1. When x=1, y=3.",
+              "correctAnswer": "y = 2x + 1",
+              "explanation": "Points (0, 1) and (1, 3) lie on y = 2x + 1.",
+              "graphConfig": {
+                "equation": "y = 2x + 1",
+                "curveType": "linear",
+                "requiredPointsCount": 2,
+                "checkEquation": true,
+                "helperTable": [
+                  {
+                    "x": 0,
+                    "y": 1
+                  },
+                  {
+                    "x": 1,
+                    "y": 3
+                  }
+                ]
+              }
+            },
+            {
+              "id": "l5-s5-seed4",
+              "type": "numeric",
+              "prompt": "For the cubic curve y = x³, calculate y when x = 2:",
+              "subPrompt": "2³ = 2 × 2 × 2:",
+              "correctAnswer": "8",
+              "explanation": "2³ = 8."
+            },
+            {
+              "id": "l5-s5-seed5",
+              "type": "multiple_choice",
+              "prompt": "Where is the sharp corner of the V-curve y = |x - 4| + 1?",
+              "options": [
+                "(4, 1)",
+                "(-4, 1)",
+                "(4, -1)",
+                "(-4, -1)"
+              ],
+              "correctAnswer": "(4, 1)",
+              "explanation": "The corner of y = |x - h| + k is at (h, k) = (4, 1)."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
