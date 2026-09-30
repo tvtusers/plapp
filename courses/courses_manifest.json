@@ -2,6 +2,19 @@
   "manifestVersion": "1.0.0",
   "title": "PL fun Math Academy - Master Catalog",
   "courses": [
+  {
+     "id": "course_graphs",
+  "title": "Graphs, Curves & Plotting Master",
+  "description": "Interactive Cartesian Graphing: Linear Lines, Parabolas, Absolute V-Shapes, Cubics, Hyperbolas & Waves (5 Levels, 25 Practice Sets + Live Random Generator)",
+  "version": "1.0.0",
+  "author": "PL fun Visual Math Lab",
+  "icon": "TrendingUp",
+  "levelsCount": 5,
+  "totalSets": 25,
+  "totalQuestions": 125,
+  "packageUrl": "course_graphs.json",
+      "sortOrder": 1
+    }, 
     {
       "id": "course_basic_math",
       "title": "Basic Math Mastery",
@@ -10,7 +23,7 @@
       "version": "1.0.0",
       "packageUrl": "course_basic_math.json",
       "icon": "Calculator",
-      "sortOrder": 1
+      "sortOrder": 2
     },
     {  "id": "course_phonics",
   "title": "Phonics & Letter Sounds Master",
